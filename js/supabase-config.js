@@ -34,8 +34,8 @@
 //      create the premium_status table + its security rules.
 // ============================================================
 
-const SUPABASE_URL = "PASTE_YOUR_PROJECT_URL_HERE"; // e.g. "https://abcxyz.supabase.co"
-const SUPABASE_ANON_KEY = "PASTE_YOUR_ANON_KEY_HERE";
+const SUPABASE_URL = "https://ecepscqmxqnepoufqivm.supabase.co/rest/v1/"; // e.g. "https://abcxyz.supabase.co"
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVjZXBzY3FteHFuZXBvdWZxaXZtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU3NDA4MDQsImV4cCI6MjEwMTMxNjgwNH0.leiMirwD16GYvHav8gLs24M5HWCqVI2XI8DZOdGDmEI";
 
 const supabaseClient = (SUPABASE_URL.startsWith("PASTE_") || SUPABASE_ANON_KEY.startsWith("PASTE_"))
     ? null // Not configured yet — app still loads, login just shows a friendly error (see main.js supabaseReady()).
