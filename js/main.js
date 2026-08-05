@@ -609,6 +609,7 @@ async function startRazorpayPayment() {
         key: RAZORPAY_KEY_ID,
         amount: PREMIUM_PRICE_PAISE,
         currency: "INR",
+        order_id: order.id,
         name: "શ્રી સરસ્વતી કરિયર એકેડમી",
         description: "પ્રીમિયમ ટેસ્ટ સિરીઝ અનલોક",
         // Carried through to the payment object Razorpay sends our webhook —
