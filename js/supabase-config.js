@@ -37,6 +37,22 @@
 const SUPABASE_URL = "https://ecepscqmxqnepoufqivm.supabase.co"; // e.g. "https://abcxyz.supabase.co"
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVjZXBzY3FteHFuZXBvdWZxaXZtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU3NDA4MDQsImV4cCI6MjEwMTMxNjgwNH0.leiMirwD16GYvHav8gLs24M5HWCqVI2XI8DZOdGDmEI";
 
-const supabaseClient = (SUPABASE_URL.startsWith("PASTE_") || SUPABASE_ANON_KEY.startsWith("PASTE_"))
-    ? null // Not configured yet — app still loads, login just shows a friendly error (see main.js supabaseReady()).
-    : supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+function buildSupabaseClient() {
+    if (SUPABASE_URL.startsWith("PASTE_") || SUPABASE_ANON_KEY.startsWith("PASTE_")) {
+        // Not configured yet — app still loads, login just shows a friendly
+        // error (see main.js supabaseReady()).
+        return null;
+    }
+    try {
+        // If the Supabase SDK's CDN script failed to load (ad-blocker,
+        // offline, slow network), `supabase` won't exist here and this
+        // throws — catch it so the REST of the app (quizzes, navigation)
+        // still works. Only login/payment should fail, with a clear message.
+        return supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    } catch (err) {
+        console.error("Supabase SDK failed to load:", err);
+        return null;
+    }
+}
+
+const supabaseClient = buildSupabaseClient();
