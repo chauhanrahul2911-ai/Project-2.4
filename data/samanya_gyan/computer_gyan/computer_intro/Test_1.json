@@ -1,0 +1,152 @@
+[
+{
+"q": "કમ્પ્યુટરના ભૌતિક ભાગો જેને સ્પર્શ કરી શકાય તેને શું કહેવાય?",
+"options": ["સોફ્ટવેર", "હાર્ડવેર", "લાઈવવેર", "ફર્મવેર"],
+"correct": 1,
+"explanation": "કમ્પ્યુટરના ભૌતિક ભાગો જેવા કે કીબોર્ડ, માઉસ, સીપીયુ વગેરેને હાર્ડવેર કહેવાય છે."
+},
+{
+"q": "કમ્પ્યુટરનું મગજ (Brain of Computer) કોને કહેવામાં આવે છે?",
+"options": ["RAM", "ROM", "CPU", "Hard Disk"],
+"correct": 2,
+"explanation": "CPU (Central Processing Unit) કમ્પ્યુટરના તમામ પ્રોસેસિંગ કાર્યોનું સંચાલન કરતું હોવાથી તેને મગજ કહે છે."
+},
+{
+"q": "CPU નું પૂરું નામ શું છે?",
+"options": ["Central Processing Unit", "Control Processing Unit", "Central Power Unit", "Computer Processing Unit"],
+"correct": 0,
+"explanation": "CPU નું પૂરું નામ Central Processing Unit છે."
+},
+{
+"q": "RAM નું પૂરું નામ જણાવો.",
+"options": ["Read Access Memory", "Random Access Memory", "Rapid Access Memory", "Real Access Memory"],
+"correct": 1,
+"explanation": "RAM એટલે Random Access Memory, જે કમ્પ્યુટરની પ્રાથમિક (અસ્થાયી) મેમરી છે."
+},
+{
+"q": "નીચેનામાંથી કયું ઇનપુટ ડિવાઇસ (Input Device) છે?",
+"options": ["મોનિટર", "પ્રિન્ટર", "કીબોર્ડ", "સ્પીકર"],
+"correct": 2,
+"explanation": "કીબોર્ડ દ્વારા કમ્પ્યુટરમાં ડેટા દાખલ કરવામાં આવે છે, તેથી તે ઇનપુટ ડિવાઇસ છે."
+},
+{
+"q": "નીચેનામાંથી કયું આઉટપુટ ડિવાઇસ (Output Device) છે?",
+"options": ["માઉસ", "કીબોર્ડ", "સ્કેનર", "પ્રિન્ટર"],
+"correct": 3,
+"explanation": "પ્રિન્ટર પરિણામને કાગળ પર છાપીને આપે છે, તેથી તે આઉટપુટ ડિવાઇસ છે."
+},
+{
+"q": "1 Byte માં કેટલા Bits હોય છે?",
+"options": ["4 Bits", "8 Bits", "16 Bits", "32 Bits"],
+"correct": 1,
+"explanation": "1 બાઇટ (Byte) = 8 બીટ્સ (Bits) થાય છે."
+},
+{
+"q": "1 Kilobyte (KB) એટલે કેટલા Bytes થાય?",
+"options": ["1000 Bytes", "1024 Bytes", "100 Bytes", "1048 Bytes"],
+"correct": 1,
+"explanation": "1 KB = 1024 Bytes થાય છે."
+},
+{
+"q": "MS Word માં લખાણને કોપી (Copy) કરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+"options": ["Ctrl + V", "Ctrl + X", "Ctrl + C", "Ctrl + P"],
+"correct": 2,
+"explanation": "Ctrl + C નો ઉપયોગ લખાણ કે ફાઇલ કોપી કરવા માટે થાય છે."
+},
+{
+"q": "MS Word માં લખાણને પેસ્ટ (Paste) કરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+"options": ["Ctrl + V", "Ctrl + P", "Ctrl + S", "Ctrl + Z"],
+"correct": 0,
+"explanation": "કોપી કે કટ કરેલા લખાણને પેસ્ટ કરવા Ctrl + V વપરાય છે."
+},
+{
+"q": "MS Word માં નવી ફાઇલ ખોલવા માટે કઈ શોર્ટકટ કીનો ઉપયોગ થાય છે?",
+"options": ["Ctrl + O", "Ctrl + N", "Ctrl + M", "Ctrl + W"],
+"correct": 1,
+"explanation": "નવી બ્લેન્ક ફાઇલ બનાવવા Ctrl + N નો ઉપયોગ થાય છે."
+},
+{
+"q": "ડોક્યુમેન્ટ કે ફાઇલને સેવ (Save) કરવા કઈ શોર્ટકટ કી વપરાય છે?",
+"options": ["Ctrl + A", "Ctrl + S", "Ctrl + D", "Ctrl + Shift + S"],
+"correct": 1,
+"explanation": "ફાઇલ સેવ કરવા માટે Ctrl + S નો ઉપયોગ થાય છે."
+},
+{
+"q": "છેલ્લે કરેલી અસરને રદ કરવા (Undo) કઈ શોર્ટકટ કી વપરાય છે?",
+"options": ["Ctrl + Y", "Ctrl + U", "Ctrl + Z", "Ctrl + R"],
+"correct": 2,
+"explanation": "છેલ્લી ક્રિયા રદ કરવા માટે Undo (Ctrl + Z) વપરાય છે."
+},
+{
+"q": "MS Excel માં બનેલી ફાઇલને સામાન્ય રીતે શું કહેવામાં આવે છે?",
+"options": ["Document", "Workbook / Worksheet", "Presentation", "Database"],
+"correct": 1,
+"explanation": "એક્સેલ ફાઇલને વર્કબુક (Workbook) કહેવાય છે જેમાં વર્કશીટ હોય છે."
+},
+{
+"q": "MS Excel માં કઈ સંજ્ઞાથી ફોર્મ્યુલા/સૂત્રની શરૂઆત થાય છે?",
+"options": ["+", "@", "=", "#"],
+"correct": 2,
+"explanation": "એક્સેલમાં કોઈ પણ ગણતરી કે સૂત્ર લખતા પહેલા '=' (બરાબર) ની નિશાની મૂકવી ફરજિયાત છે."
+},
+{
+"q": "MS PowerPoint માં પ્રેઝન્ટેશનની સ્લાઇડ શો શરૂ કરવા કઈ કી વપરાય છે?",
+"options": ["F1", "F5", "F7", "F12"],
+"correct": 1,
+"explanation": "સ્લાઇડ શો શરૂ કરવા માટે F5 કી દબાવવામાં આવે છે."
+},
+{
+"q": "WWW નું પૂરું નામ શું છે?",
+"options": ["World Wide Web", "World Whole Web", "Web Wide World", "World Wide Windows"],
+"correct": 0,
+"explanation": "WWW નો અર્થ World Wide Web થાય છે."
+},
+{
+"q": "ઈમેલ (E-mail) માં 'Cc' નું પૂરું નામ શું છે?",
+"options": ["Computer Copy", "Carbon Copy", "Central Copy", "Current Copy"],
+"correct": 1,
+"explanation": "Cc એટલે Carbon Copy, જેનાથી એક જ ઈમેલ અન્ય વ્યક્તિઓને પણ મોકલી શકાય છે."
+},
+{
+"q": "ઈમેલ (E-mail) માં 'Bcc' નું પૂરું નામ શું છે?",
+"options": ["Blind Carbon Copy", "Basic Carbon Copy", "Best Carbon Copy", "Blind Computer Copy"],
+"correct": 0,
+"explanation": "Bcc એટલે Blind Carbon Copy, જેમાં અન્ય પ્રાપ્તકર્તાઓને ખબર પડતી નથી કે આ ઈમેલ બીજા કોને મોકલાયો છે."
+},
+{
+"q": "URL નું પૂરું નામ શું છે?",
+"options": ["Universal Resource Locator", "Uniform Resource Locator", "United Resource Link", "Uniform Resource Link"],
+"correct": 1,
+"explanation": "વેબસાઇટના સરનામાને URL (Uniform Resource Locator) કહેવામાં આવે છે."
+},
+{
+"q": "PDF નું પૂરું નામ જણાવો.",
+"options": ["Portable Document Format", "Printed Document Format", "Public Document File", "Personal Document Format"],
+"correct": 0,
+"explanation": "PDF એટલે Portable Document Format."
+},
+{
+"q": "કમ્પ્યુટરને રીસ્ટાર્ટ કરવાની પ્રક્રિયાને શું કહે છે?",
+"options": ["Cold Booting", "Warm Booting", "Formatting", "Shutdown"],
+"correct": 1,
+"explanation": "ચાલુ કમ્પ્યુટરને પુનઃચાલુ (Restart) કરવાની ક્રિયાને Warm Booting કહેવાય છે."
+},
+{
+"q": "નીચેનામાંથી કયું ઓપરેટિંગ સિસ્ટમ (OS) નું ઉદાહરણ છે?",
+"options": ["MS Word", "Google Chrome", "Windows 11", "MS Excel"],
+"correct": 2,
+"explanation": "Windows 11 એ એક સિસ્ટમ સોફ્ટવેર / ઓપરેટિંગ સિસ્ટમ છે."
+},
+{
+"q": "કમ્પ્યુટર વાયરસ સામે રક્ષણ મેળવવા માટે શેનો ઉપયોગ થાય છે?",
+"options": ["ઓપરેટિંગ સિસ્ટમ", "એન્ટીવાયરસ સોફ્ટવેર", "બ્રાઉઝર", "સ્પ્રેડશીટ"],
+"correct": 1,
+"explanation": "કમ્પ્યુટરને વાયરસથી બચાવવા માટે Antivirus સોફ્ટવેર ઇન્સ્ટોલ કરવામાં આવે છે."
+},
+{
+"q": "કીબોર્ડમાં સૌથી લાંબી કી (Key) કઈ હોય છે?",
+"options": ["Enter Key", "Shift Key", "Spacebar Key", "Backspace Key"],
+"correct": 2,
+"explanation": "કીબોર્ડમાં સૌથી નીચે આવેલી સ્પેસબાર (Spacebar) કી સૌથી મોટી હોય છે."
+}
+]
