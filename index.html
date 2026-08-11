@@ -215,10 +215,17 @@
     <!-- LOGOUT CONFIRM MODAL -->
     <div id="logout-confirm-modal" class="modal">
         <div class="modal-content">
-            <h3>🚪 લોગ આઉટ</h3>
+            <div class="logout-icon-badge">
+                <img src="assets/icon/Logout.webp" alt="" class="logout-icon-img">
+            </div>
+            <h3 class="logout-title">લોગ આઉટ</h3>
+            <div class="logout-title-underline"></div>
             <p>શું તમે ખરેખર લોગ આઉટ કરવા માંગો છો?</p>
-            <button class="btn" style="width: 100%; margin: 15px 0 0.7rem; background: linear-gradient(135deg, #ef4444, #b91c1c); box-shadow: 0 6px 16px rgba(185,28,28,0.28);" onclick="confirmLogout()">હા, લોગ આઉટ કરો</button>
-            <button class="back-btn" onclick="closeLogoutConfirm()">રદ કરો</button>
+            <button class="logout-confirm-btn" onclick="confirmLogout()">
+                <img src="assets/icon/Logout.png" alt="" class="logout-btn-icon">
+                <span>હા, લોગ આઉટ કરો</span>
+            </button>
+            <button class="logout-cancel-btn" onclick="closeLogoutConfirm()">રદ કરો</button>
         </div>
     </div>
 
