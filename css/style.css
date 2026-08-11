@@ -368,6 +368,42 @@ body {
 .modal-content p { color: var(--ink-soft); font-size: 0.92rem; margin-top: 10px; line-height: 1.5; }
 .modal-content h2 { font-family: var(--font-display); font-size: 2.1rem; }
 
+/* GOOGLE SIGN-IN BUTTON — follows Google's own brand button style
+   (white background, subtle border/shadow, colored "G" mark + dark text)
+   instead of matching the app's gold accent, since this is a recognizable
+   third-party sign-in affordance. */
+.google-login-btn {
+    width: 100%;
+    margin: 15px 0 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: #ffffff;
+    color: #3c4043;
+    border: 1px solid #dadce0;
+    border-radius: 12px;
+    padding: 13px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font-body);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+.google-login-btn:hover {
+    background: #f8f9fa;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+.google-login-btn:active {
+    background: #f1f3f4;
+}
+.google-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
 /* --- SUBJECTS BANNER HEADER CARD (Screen 1) --- */
 .subject-header-card {
     background: linear-gradient(135deg, #071e3d 0%, #0f2340 50%, #16325c 100%);
