@@ -204,7 +204,10 @@
         <div class="modal-content">
             <h3>🔒 લોગિન જરૂરી</h3>
             <p>આગળના પ્રીમિયમ ટેસ્ટ માટે કૃપા કરીને પહેલા Google વડે લોગિન કરો.</p>
-            <button class="btn" style="width: 100%; margin: 15px 0 0.7rem;" onclick="closeLoginPrompt(); loginWithGoogle();">🔵 Login with Google</button>
+            <button class="google-login-btn" onclick="closeLoginPrompt(); loginWithGoogle();">
+                <img src="assets/icon/G.webp" alt="" class="google-icon">
+                <span>Login with Google</span>
+            </button>
             <button class="back-btn" onclick="closeLoginPrompt()">બંધ કરો</button>
         </div>
     </div>
@@ -220,12 +223,12 @@
     </div>
 
 <!-- 🔐 Supabase (real Google Sign-In + database) — config lives in js/supabase-config.js -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
-<script src="js/supabase-config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="js/supabase-config.js" defer></script>
 
 <!-- 💳 Razorpay (real payment) — config lives in js/razorpay-config.js -->
-<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-<script src="js/razorpay-config.js"></script>
-<script src="js/main.js"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
+<script src="js/razorpay-config.js" defer></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>
