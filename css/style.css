@@ -368,6 +368,74 @@ body {
 .modal-content p { color: var(--ink-soft); font-size: 0.92rem; margin-top: 10px; line-height: 1.5; }
 .modal-content h2 { font-family: var(--font-display); font-size: 2.1rem; }
 
+/* LOGOUT CONFIRM MODAL */
+.logout-icon-badge {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background: #fde3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+}
+.logout-icon-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.logout-title {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 0;
+}
+.logout-title-underline {
+    width: 46px;
+    height: 3px;
+    background: var(--gold);
+    border-radius: 3px;
+    margin: 10px auto 4px;
+}
+.logout-confirm-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #ef4444, #b91c1c);
+    color: #ffffff;
+    border: none;
+    border-radius: 14px;
+    padding: 14px 20px;
+    margin: 18px 0 0.7rem;
+    font-size: 1.02rem;
+    font-weight: 700;
+    font-family: var(--font-body);
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgba(185, 28, 28, 0.3);
+}
+.logout-confirm-btn:active { transform: scale(0.98); }
+.logout-btn-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.logout-cancel-btn {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    color: var(--ink);
+    border-radius: 14px;
+    padding: 13px 20px;
+    font-size: 0.98rem;
+    font-weight: 600;
+    font-family: var(--font-body);
+    cursor: pointer;
+}
+.logout-cancel-btn:active { background: var(--paper); }
+
 /* GOOGLE SIGN-IN BUTTON — follows Google's own brand button style
    (white background, subtle border/shadow, colored "G" mark + dark text)
    instead of matching the app's gold accent, since this is a recognizable
