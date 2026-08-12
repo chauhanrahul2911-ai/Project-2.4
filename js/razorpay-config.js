@@ -26,7 +26,7 @@
 //      a LIVE key (starts with rzp_live_...), and swap it in below.
 // ============================================================
 
-const RAZORPAY_KEY_ID = ""; // e.g. "rzp_test_xxxxxxxxxxxx"
+const RAZORPAY_KEY_ID = "rzp_test_TNeiL7VoWET1pH"; // e.g. "rzp_test_xxxxxxxxxxxx"
 
 // Price shown in the paywall (₹149). Razorpay takes amount in PAISE
 // (smallest unit), so ₹149 = 14900. Change this one line if the price
