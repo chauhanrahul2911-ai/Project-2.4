@@ -696,20 +696,14 @@ function initDashboard() {
 
 window.onpopstate = function () {
     if (openPopupId) {
-        // Back button pressed while a popup was open — close the popup
-        // instead of changing screens, and push the current screen's state
-        // right back on so the actual navigation the browser just did gets
-        // cancelled. No extra history entry was ever added for the popup
-        // itself, so if the app gets killed while a popup is open, the
-        // saved screen state is untouched and restores normally.
-        const stillOnScreen = document.querySelector('.screen.active')?.id || "screen-subjects";
+        // Back button pressed while a popup was open — close the popup, and
+        // move forward again to cancel the back-navigation the browser just
+        // did, so the underlying screen doesn't change. This only moves the
+        // position pointer (no entries added or removed), which real mobile
+        // back-button behavior handles far more predictably than trying to
+        // rebuild the entry with pushState from inside a popstate handler.
         closePopup(openPopupId);
-        history.pushState({
-            activeScreen: stillOnScreen,
-            subject: currentSubject,
-            branch: currentBranch,
-            type: currentType
-        }, "");
+        history.go(1);
         return;
     }
 
