@@ -1,0 +1,76 @@
+/* Shared layout for standalone content pages (Terms, Privacy, Refund, Contact) —
+   reuses the same design tokens/fonts as style.css for a consistent look. */
+
+.legal-page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1.5rem 1.2rem 3rem;
+}
+
+.legal-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--ink-2);
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 1.4rem;
+    font-size: 0.92rem;
+}
+.legal-back-link:hover { color: var(--gold); }
+
+.legal-page h1 {
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+}
+
+.legal-updated {
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    margin-bottom: 1.8rem;
+    font-family: var(--font-mono);
+}
+
+.legal-page h2 {
+    font-family: var(--font-display);
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 1.8rem 0 0.7rem;
+    padding-top: 1.2rem;
+    border-top: 1px dashed var(--line);
+}
+.legal-page h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+
+.legal-page p, .legal-page li {
+    color: var(--ink-soft);
+    font-size: 0.96rem;
+    line-height: 1.7;
+    margin-bottom: 0.8rem;
+}
+
+.legal-page ul { padding-left: 1.3rem; margin-bottom: 1rem; }
+.legal-page strong { color: var(--ink); }
+
+.legal-contact-box {
+    background: var(--gold-wash);
+    border: 1px solid #f0dfba;
+    border-radius: 14px;
+    padding: 1.1rem 1.3rem;
+    margin-top: 1.2rem;
+}
+.legal-contact-box p { margin-bottom: 0.4rem; }
+.legal-contact-box a { color: var(--ink-2); font-weight: 700; text-decoration: none; }
+.legal-contact-box a:hover { color: var(--gold); }
+
+.legal-note {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    font-style: italic;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--line);
+}
