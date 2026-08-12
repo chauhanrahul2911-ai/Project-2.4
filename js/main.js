@@ -562,14 +562,27 @@ if (supabaseReady()) {
 }
 
 
-function openPaywall() { document.getElementById('paywall-modal').style.display = 'flex'; }
-function closePaywall() { document.getElementById('paywall-modal').style.display = 'none'; }
+// --- POPUP OPEN/CLOSE (shared, so hardware back button can close whichever
+// popup is open instead of navigating screens — see window.onpopstate) ---
+let openPopupId = null; // id of the currently-open popup modal, or null
 
-function openLoginPrompt() { document.getElementById('login-prompt-modal').style.display = 'flex'; }
-function closeLoginPrompt() { document.getElementById('login-prompt-modal').style.display = 'none'; }
+function openPopup(id) {
+    document.getElementById(id).style.display = 'flex';
+    openPopupId = id;
+}
+function closePopup(id) {
+    document.getElementById(id).style.display = 'none';
+    if (openPopupId === id) openPopupId = null;
+}
 
-function openLogoutConfirm() { document.getElementById('logout-confirm-modal').style.display = 'flex'; }
-function closeLogoutConfirm() { document.getElementById('logout-confirm-modal').style.display = 'none'; }
+function openPaywall() { openPopup('paywall-modal'); }
+function closePaywall() { closePopup('paywall-modal'); }
+
+function openLoginPrompt() { openPopup('login-prompt-modal'); }
+function closeLoginPrompt() { closePopup('login-prompt-modal'); }
+
+function openLogoutConfirm() { openPopup('logout-confirm-modal'); }
+function closeLogoutConfirm() { closePopup('logout-confirm-modal'); }
 function confirmLogout() {
     closeLogoutConfirm();
     logoutUser();
@@ -682,6 +695,24 @@ function initDashboard() {
 }
 
 window.onpopstate = function () {
+    if (openPopupId) {
+        // Back button pressed while a popup was open — close the popup
+        // instead of changing screens, and push the current screen's state
+        // right back on so the actual navigation the browser just did gets
+        // cancelled. No extra history entry was ever added for the popup
+        // itself, so if the app gets killed while a popup is open, the
+        // saved screen state is untouched and restores normally.
+        const stillOnScreen = document.querySelector('.screen.active')?.id || "screen-subjects";
+        closePopup(openPopupId);
+        history.pushState({
+            activeScreen: stillOnScreen,
+            subject: currentSubject,
+            branch: currentBranch,
+            type: currentType
+        }, "");
+        return;
+    }
+
     const lastScreen = history.state?.activeScreen;
     if (!lastScreen) return;
 
