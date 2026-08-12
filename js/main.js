@@ -79,8 +79,20 @@ let isRestoring = false;
 
 // --- SIDEBAR TOGGLE ---
 function toggleSidebar() {
-    document.getElementById('sidebar').classList.toggle('open');
+    const sidebar = document.getElementById('sidebar');
+    const isOpening = !sidebar.classList.contains('open');
+    sidebar.classList.toggle('open');
     document.getElementById('sidebar-overlay').classList.toggle('show');
+    if (isOpening) {
+        registerOpen('sidebar', closeSidebar);
+    } else {
+        registerClosed('sidebar');
+    }
+}
+function closeSidebar() {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebar-overlay').classList.remove('show');
+    registerClosed('sidebar');
 }
 
 function changeScreenFromSidebar() {
@@ -562,17 +574,29 @@ if (supabaseReady()) {
 }
 
 
-// --- POPUP OPEN/CLOSE (shared, so hardware back button can close whichever
-// popup is open instead of navigating screens — see window.onpopstate) ---
-let openPopupId = null; // id of the currently-open popup modal, or null
+// --- POPUP/SIDEBAR OPEN/CLOSE (shared, so hardware back button can close
+// whichever one is open instead of navigating screens — see window.onpopstate) ---
+let openPopupId = null;      // id of whatever overlay (modal or sidebar) is open, or null
+let openPopupCloseFn = null; // the function to call to close it
+
+function registerOpen(id, closeFn) {
+    openPopupId = id;
+    openPopupCloseFn = closeFn;
+}
+function registerClosed(id) {
+    if (openPopupId === id) {
+        openPopupId = null;
+        openPopupCloseFn = null;
+    }
+}
 
 function openPopup(id) {
     document.getElementById(id).style.display = 'flex';
-    openPopupId = id;
+    registerOpen(id, () => closePopup(id));
 }
 function closePopup(id) {
     document.getElementById(id).style.display = 'none';
-    if (openPopupId === id) openPopupId = null;
+    registerClosed(id);
 }
 
 function openPaywall() { openPopup('paywall-modal'); }
@@ -696,13 +720,14 @@ function initDashboard() {
 
 window.onpopstate = function () {
     if (openPopupId) {
-        // Back button pressed while a popup was open — close the popup, and
+        // Back button pressed while a popup/sidebar was open — close it, and
         // move forward again to cancel the back-navigation the browser just
         // did, so the underlying screen doesn't change. This only moves the
         // position pointer (no entries added or removed), which real mobile
         // back-button behavior handles far more predictably than trying to
         // rebuild the entry with pushState from inside a popstate handler.
-        closePopup(openPopupId);
+        const closeFn = openPopupCloseFn;
+        if (closeFn) closeFn();
         history.go(1);
         return;
     }
