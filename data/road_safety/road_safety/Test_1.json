@@ -144,7 +144,7 @@
     "options": ["ડાબી બાજુ વળાંક પ્રતિબંધ", "જમણી બાજુ વળાંક પ્રતિબંધ", "યુ-ટર્ન પ્રતિબંધ", "ઓવરટેકિંગ પ્રતિબંધ"],
     "correct": 1,
     "explanation": "લાલ વર્તુળમાં જમણી તરફનો તીર ક્રોસ કરેલ હોવાથી તે જમણી બાજુ વળાંક લેવા પર પ્રતિબંધ (Right Turn Prohibited) દર્શાવે છે.",
-    "img": "data/road_safety/images/sign_right_turn_prohibited.png"
+    "img": "data/road_safety/images/sign_right_turn_prohibited.webp"
   },
   {
     "q": "નીચે દર્શાવેલ ત્રિકોણાકાર ચેતવણી ચિહ્ન શું દર્શાવે છે?",
