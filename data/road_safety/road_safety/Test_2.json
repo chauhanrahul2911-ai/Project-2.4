@@ -45,7 +45,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન સાંકડા રસ્તાઓ પર સામેથી આવતા વાહનોને પ્રથમ પ્રાથમિકતા આપવાનું સૂચવે છે.",
-    "img": "sign_priority_for_oncoming.png"
+    "img": "data/road_safety/images/sign_priority_for_oncoming.png"
   },
   {
     "q": "નીચે દર્શાવેલ વર્તુળાકાર ચિહ્ન શાના પર પ્રતિબંધ દર્શાવે છે?",
@@ -57,7 +57,7 @@
     ],
     "correct": 2,
     "explanation": "આ ચિહ્ન મોટરસાયકલ અને કાર સહિતના તમામ યાંત્રિક મોટર વાહનોના પ્રવેશ પર પ્રતિબંધ દર્શાવે છે.",
-    "img": "sign_all_motor_vehicles_prohibited.png"
+    "img": "data/road_safety/images/sign_all_motor_vehicles_prohibited.png"
   },
   {
     "q": "નીચે દર્શાવેલ ચિહ્ન રસ્તા પર શાની મર્યાદા દર્શાવે છે?",
@@ -69,7 +69,7 @@
     ],
     "correct": 2,
     "explanation": "આ ચિહ્ન વાહનની પહોળાઈની મર્યાદા 2 મીટર સુધીની દર્શાવે છે (2 મીટરથી વધુ પહોળા વાહનો માટે પ્રવેશબંધી).",
-    "img": "sign_width_limit_2m.png"
+    "img": "data/road_safety/images/sign_width_limit_2m.png"
   },
   {
     "q": "નીચે દર્શાવેલ ચિહ્ન પુલ અથવા રસ્તા પર શાની મર્યાદા નક્કી કરે છે?",
@@ -81,7 +81,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન વાહનના એક્સેલ દીઠ વજન મર્યાદા (દા.ત. 4 ટન) દર્શાવે છે, જે ઓછી ક્ષમતાવાળા પુલ પહેલાં મુકાય છે.",
-    "img": "sign_axle_load_limit.png"
+    "img": "data/road_safety/images/sign_axle_load_limit.png"
   },
   {
     "q": "વાદળી વર્તુળમાં સફેદ રંગથી '30' લખેલ આ ચિહ્ન શું દર્શાવે છે?",
@@ -93,7 +93,7 @@
     ],
     "correct": 1,
     "explanation": "વાદળી વર્તુળમાં નંબર ફરજિયાત ન્યૂનતમ ગતિ મર્યાદા સૂચવે છે (વાહન ઓછામાં ઓછી 30 કિમી/કલાકની ગતિએ ચલાવવું ફરજિયાત છે).",
-    "img": "sign_compulsory_min_speed.png"
+    "img": "data/road_safety/images/sign_compulsory_min_speed.png"
   },
   {
     "q": "સફેદ વર્તુળ પર ત્રાંસી કાળી પટ્ટી ધરાવતું આ ચિહ્ન શું સૂચવે છે?",
@@ -105,7 +105,7 @@
     ],
     "correct": 2,
     "explanation": "આ ચિહ્ન રસ્તા પર અગાઉ લાદવામાં આવેલા તમામ પ્રતિબંધો (જેમ કે સ્પીડ લિમિટ કે ઓવરટેકિંગ પ્રતિબંધ) પૂર્ણ થયાનું દર્શાવે છે.",
-    "img": "sign_restriction_ends.png"
+    "img": "data/road_safety/images/sign_restriction_ends.png"
   },
   {
     "q": "નીચે દર્શાવેલ ત્રિકોણાકાર ચેતવણી ચિહ્ન ડ્રાઇવરને શાની ચેતવણી આપે છે?",
@@ -117,7 +117,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન આગળ જતાં જમણી બાજુ Z (ઝિગ-ઝેગ) આકારનો વળાંક હોવાનું સૂચવે છે.",
-    "img": "sign_right_reverse_bend.png"
+    "img": "data/road_safety/images/sign_right_reverse_bend.png"
   },
   {
     "q": "ડુંગરાળ વિસ્તારોમાં જોવા મળતું આ ચિહ્ન શું સૂચવે છે?",
@@ -129,7 +129,7 @@
     ],
     "correct": 0,
     "explanation": "આ ચિહ્ન આગળ સીધું ઊભું ચઢાણ હોવાનું દર્શાવે છે, જેથી યોગ્ય ગિયર પસંદ કરવાનો સમય મળી રહે.",
-    "img": "sign_steep_ascent.png"
+    "img": "data/road_safety/images/sign_steep_ascent.png"
   },
   {
     "q": "નીચે દર્શાવેલ ચિહ્ન રસ્તાની કઈ સ્થિતિ દર્શાવે છે?",
@@ -141,7 +141,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન સૂચવે છે કે આગળ જતાં સાંકડો રસ્તો પહોળો થાય છે.",
-    "img": "sign_road_widens_ahead.png"
+    "img": "data/road_safety/images/sign_road_widens_ahead.png"
   },
   {
     "q": "નીચે દર્શાવેલ ચેતવણી ચિહ્ન શાના માટે છે?",
@@ -153,7 +153,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન આગળ પાણી કે તેલના કારણે રસ્તો લપસણો હોવાની ચેતવણી આપે છે.",
-    "img": "sign_slippery_road.png"
+    "img": "data/road_safety/images/sign_slippery_road.png"
   },
   {
     "q": "પહાડી રસ્તાઓ પર વાહન ચલાવતી વખતે નીચેનું ચિહ્ન શું ચેતવે છે?",
@@ -165,7 +165,7 @@
     ],
     "correct": 0,
     "explanation": "આ ચિહ્ન રસ્તા પર પહાડી પરથી પથ્થરો અથવા માટી ધસી પડવાનો ભય દર્શાવે છે.",
-    "img": "sign_falling_rocks.png"
+    "img": "data/road_safety/images/sign_falling_rocks.png"
   },
   {
     "q": "નીચે દર્શાવેલ ચિહ્ન રસ્તા પર શાની હાજરી સૂચવે છે?",
@@ -177,7 +177,7 @@
     ],
     "correct": 0,
     "explanation": "આ ચિહ્ન આગળ રસ્તા પર અચાનક ઊંડો ખાડો કે ડીપ (ભયજનક ઊંડાઈ) હોવાનું સૂચવે છે.",
-    "img": "sign_dangerous_dip.png"
+    "img": "data/road_safety/images/sign_dangerous_dip.png"
   },
   {
     "q": "નદી પાર કરવા માટે આગળ બોટ/ફેરી વ્યવસ્થા ઉપલબ્ધ હોય ત્યારે કયું ચિહ્ન દર્શાવાય છે?",
@@ -189,7 +189,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન દર્શાવે છે કે આગળ નદી પાર કરવા માટે પુલ નથી પણ ફેરી (હોડી/બોટ) સેવા ઉપલબ્ધ છે.",
-    "img": "sign_ferry_service.png"
+    "img": "data/road_safety/images/sign_ferry_service.png"
   },
   {
     "q": "ટોલ પ્લાઝા અથવા ચેકપોસ્ટ નજીક વાહનો રોકવા માટે આગળ કયું ચેતવણી ચિહ્ન જોવા મળે છે?",
@@ -201,7 +201,7 @@
     ],
     "correct": 0,
     "explanation": "આ ચિહ્ન ટોલ પ્લાઝા, ચેકપોસ્ટ કે નાકાબંધી પર વાહનો થોભાવવા આગળ બેરિયર (અવરોધ) હોવાનું સૂચવે છે.",
-    "img": "sign_barrier_ahead.png"
+    "img": "data/road_safety/images/sign_barrier_ahead.png"
   },
   {
     "q": "હાઇવે પર ડિવાઇડર વચ્ચેથી યુ-ટર્ન લેવાની જગ્યા હોય ત્યાં કયું ચિહ્ન મુકાય છે?",
@@ -213,7 +213,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન આગળ ડિવાઇડરમાં ગેપ હોવાનું સૂચવે છે જ્યાંથી વાહન યુ-ટર્ન લઈ શકે છે.",
-    "img": "sign_gap_in_median.png"
+    "img": "data/road_safety/images/sign_gap_in_median.png"
   },
   {
     "q": "નીચે દર્શાવેલ ચિહ્ન આગળ કયા પ્રકારના જંક્શનની હાજરી દર્શાવે છે?",
@@ -225,7 +225,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન આગળ જતાં રસ્તો અંગ્રેજી 'Y' આકારમાં બે ભાગમાં વહેંચાતો હોવાનું દર્શાવે છે.",
-    "img": "sign_y_intersection.png"
+    "img": "data/road_safety/images/sign_y_intersection.png"
   },
   {
     "q": "ડાબી અને જમણી બાજુ થોડા અંતરે વળાંકો આવતા હોય ત્યારે કયું ચિહ્ન વપરાય છે?",
@@ -237,7 +237,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન 'વિષમ રોડ જંક્શન' દર્શાવે છે જ્યાં બંને બાજુના કનેક્ટિંગ રસ્તા સામસામે ન હોતાં થોડા અંતરે હોય છે.",
-    "img": "sign_staggered_intersection.png"
+    "img": "data/road_safety/images/sign_staggered_intersection.png"
   },
   {
     "q": "રસ્તો આગળ જઈને સીધો નદી કે ખાડીના કિનારે પૂરો થતો હોય ત્યારે કયું ચિહ્ન વપરાય છે?",
@@ -249,7 +249,7 @@
     ],
     "correct": 1,
     "explanation": "આ ચિહ્ન અસાવધ ડ્રાઇવિંગથી વાહન પાણીમાં ન પડે તે માટે 'નદી કે ઘાટનો કિનારો' દર્શાવે છે.",
-    "img": "sign_river_bank.png"
+    "img": "data/road_safety/images/sign_river_bank.png"
   },
   {
     "q": "રસ્તા પર આગળ મજૂરો કે કામદારો કામ કરી રહ્યા હોય ત્યારે કયું ચિહ્ન મુકાય છે?",
@@ -261,7 +261,7 @@
     ],
     "correct": 1,
     "explanation": "આ ત્રિકોણાકાર ચિહ્ન દર્શાવે છે કે આગળ રસ્તાનું સમારકામ ચાલી રહ્યું છે અને વાહન ધીમું ચલાવવું જોઈએ.",
-    "img": "sign_men_at_work.png"
+    "img": "data/road_safety/images/sign_men_at_work.png"
   },
   {
     "q": "લંબચોરસમાં 'T' જેવો લાલ અને કાળો આકાર ધરાવતું આ ચિહ્ન શું દર્શાવે છે?",
@@ -273,7 +273,7 @@
     ],
     "correct": 1,
     "explanation": "આ માહિતી દર્શક ચિહ્ન સૂચવે છે કે આ ગલી કે રસ્તામાં આગળ જવાનો કોઈ રસ્તો નથી (આગળ રસ્તો બંધ છે).",
-    "img": "sign_no_through_road.png"
+    "img": "data/road_safety/images/sign_no_through_road.png"
   },
   {
     "q": "રસ્તા પર નીચેથી પસાર થવા માટે બનાવેલ અંડરપાસ પગપાળા લોકો માટે હોય ત્યારે કયું ચિહ્ન વપરાય છે?",
@@ -285,7 +285,7 @@
     ],
     "correct": 0,
     "explanation": "આ માહિતીદર્શક ચિહ્ન રાહદારીઓ માટે રસ્તો ઓળંગવા ભોંયરા (સબવે) ની સુવિધા દર્શાવે છે.",
-    "img": "sign_pedestrian_subway.png"
+    "img": "data/road_safety/images/sign_pedestrian_subway.png"
   },
   {
     "q": "રસ્તા પર મુકેલ ડિજિટલ બોર્ડ જે રીઅલ-ટાઇમ ટ્રાફિક, હવામાન અને અકસ્માતની માહિતી આપે છે તેને શું કહેવાય?",
@@ -297,6 +297,6 @@
     ],
     "correct": 1,
     "explanation": "VMS એટલે 'Variable Message Sign', જે બદલાતી પરિસ્થિતિઓ (જામ, હવામાન, ડાયવર્ઝન) ની તાત્કાલિક માહિતી આપે છે.",
-    "img": "sign_vms_display.png"
+    "img": "data/road_safety/images/sign_vms_display.png"
   }
 ]
