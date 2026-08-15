@@ -158,21 +158,21 @@
     "options": ["હમ્પ રોડ", "ગતિ અવરોધક (Speed Breaker)", "કંપન સૂચક પટ્ટી (Rumble Strip)", "કાચો રસ્તો"],
     "correct": 2,
     "explanation": "સતત ત્રણ નાના મોજા જેવી આકૃતિ કંપન સૂચક પટ્ટી (Rumble Strip) દર્શાવે છે.",
-    "img": "sign_rumble_strip.png"
+    "img": "data/road_safety/images/sign_rumble_strip.webp"
   },
   {
     "q": "ડેશબોર્ડ પર દર્શાવેલ આ સિમ્બોલ શાની ચેતવણી આપે છે?",
     "options": ["બેટરી ચાર્જિંગ ખામી", "એન્જિન ઓઇલ પ્રેશર ઓછું હોવું", "કૂલન્ટ ટેમ્પરેચર વધુ હોવું", "બ્રેક ફ્લુઇડ ઓછું હોવું"],
     "correct": 1,
     "explanation": "ઓઇલ કેન જેવો આ સિમ્બોલ દર્શાવે છે કે એન્જિનમાં ઓઇલનું પ્રેશર ઘટી ગયું છે અને તાત્કાલિક ઓઇલ લેવલ ચેક કરવું જરૂરી છે.",
-    "img": "dashboard_oil_pressure.png"
+    "img": "data/road_safety/images/dashboard_oil_pressure.webp"
   },
   {
     "q": "ડેશબોર્ડ પર જોવા મળતો આ સંકેત શાનો નિર્દેશ કરે છે?",
     "options": ["એરબેગ ફોલ્ટ", "સીટબેલ્ટ રિમાઇન્ડર", "TPMS (ટાયર પ્રેશર મોનિટરિંગ સિસ્ટમ)", "દરવાજો ખુલ્લો હોવો"],
     "correct": 2,
     "explanation": "આશ્ચર્યચિહ્ન સાથે ટાયર જેવો આકાર ધરાવતો સંકેત TPMS (ટાયર પ્રેશર ઓછું હોવાની ચેતવણી) દર્શાવે છે.",
-    "img": "dashboard_tpms_warning.png"
+    "img": "data/road_safety/images/dashboard_tpms_warning.webp"
   },
   {
     "q": "ઇલેક્ટ્રિક માલવાહક વાહનો (Battery Operated Commercial Vehicles) ની નંબર પ્લેટનો રંગ કેવો હોય છે?",
