@@ -151,7 +151,7 @@
     "options": ["ડાબો પિન બેન્ડ", "સાંકડો પુલ", "સીધો ઢોળાવ (Steep Descent)", "ઊભો ચઢાણ (Steep Ascent)"],
     "correct": 2,
     "explanation": "આ ચિહ્ન આગળ સીધો ઢોળાવ (Steep Descent) હોવાનું દર્શાવે છે, જેથી ડ્રાઈવરે વાહનની ઝડપ ઓછી કરવી જોઈએ.",
-    "img": "sign_steep_descent.png"
+    "img": "data/road_safety/images/sign_steep_descent.webp"
   },
   {
     "q": "નીચે દર્શાવેલ ટ્રાફિક ચિહ્ન શું સૂચવે છે?",
