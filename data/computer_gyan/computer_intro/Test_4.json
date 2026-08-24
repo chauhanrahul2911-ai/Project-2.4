@@ -1,0 +1,302 @@
+[
+  {
+    "q": "MS Word માં લખાણને Bold (ઘાટા) કરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + B",
+      "Ctrl + D",
+      "Ctrl + U",
+      "Ctrl + I"
+    ],
+    "correct": 0,
+    "explanation": "Ctrl + B નો ઉપયોગ ટેક્સ્ટને Bold (ઘાટા) કરવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં બૂટિંગ (Booting) સમયે 'POST' ટેસ્ટ થાય છે, તેમાં POST નું પૂરું નામ શું છે?",
+    "options": [
+      "Power On Self Test",
+      "Program On System Test",
+      "Power Operation Safe Test",
+      "Primary Operating Self Task"
+    ],
+    "correct": 0,
+    "explanation": "POST નું પૂરું નામ Power On Self Test છે, જે કમ્પ્યુટર ચાલુ થતાં જ તમામ હાર્ડવેર ચેક કરે છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કઈ નોન-વોલેટાઇલ (Non-Volatile / અસ્થાયી ન હોય તેવી) મેમરી છે?",
+    "options": [
+      "RAM",
+      "Cache Memory",
+      "ROM",
+      "SRAM"
+    ],
+    "correct": 2,
+    "explanation": "ROM (Read Only Memory) એ નોન-વોલેટાઇલ મેમરી છે, એટલે કે પાવર બંધ થવા છતાં તેમાં રહેલો ડેટા ભૂંસાતો નથી.",
+    "img": null
+  },
+  {
+    "q": "ઈમેલમાં 'BCC' નું પૂરું નામ શું છે?",
+    "options": [
+      "Blind Carbon Copy",
+      "Blank Carbon Copy",
+      "Basic Carbon Copy",
+      "Business Client Copy"
+    ],
+    "correct": 0,
+    "explanation": "BCC એટલે Blind Carbon Copy, જેમાં ઉમેરેલા ઈમેલ એડ્રેસ અન્ય પ્રાપ્તકર્તા જોઈ શકતા નથી.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં ઊભી હરોળને શું કહેવાય છે?",
+    "options": [
+      "Row",
+      "Column",
+      "Cell",
+      "Box"
+    ],
+    "correct": 1,
+    "explanation": "MS Excel માં ઊભી હરોળને Column (જેને A, B, C... નામ અપાય છે) અને આડી હરોળને Row કહેવાય છે.",
+    "img": null
+  },
+  {
+    "q": "કોઈપણ ચાલુ વિન્ડો કે પ્રોગ્રામને બંધ કરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + F4",
+      "Alt + F4",
+      "Shift + F4",
+      "Tab + F4"
+    ],
+    "correct": 1,
+    "explanation": "Alt + F4 નો ઉપયોગ વર્તમાન સક્રિય પ્રોગ્રામને બંધ કરવા અથવા કમ્પ્યુટર Shut Down કરવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "DNS નું પૂરું નામ શું છે?",
+    "options": [
+      "Data Name System",
+      "Domain Name System",
+      "Digital Network Service",
+      "Disk Number System"
+    ],
+    "correct": 1,
+    "explanation": "DNS નું પૂર્ણ રૂપ Domain Name System છે, જે ડોમેન નામને IP એડ્રેસમાં રૂપાંતરિત કરે છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કયું એન્ટિવાયરસ સોફ્ટવેર નથી?",
+    "options": [
+      "Quick Heal",
+      "Norton",
+      "Avast",
+      "Oracle"
+    ],
+    "correct": 3,
+    "explanation": "Oracle એ ડેટાબેઝ મેનેજમેન્ટ સોફ્ટવેર/કંપની છે, એન્ટિવાયરસ નથી.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં લખાણની નીચે લીટી (Underline) કરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + U",
+      "Ctrl + I",
+      "Ctrl + E"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl + U નો ઉપયોગ પસંદ કરેલા ટેક્સ્ટને Underline કરવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં BIOS ચિપ સામાન્ય રીતે ક્યાં લાગેલી હોય છે?",
+    "options": [
+      "હાર્ડ ડિસ્ક પર",
+      "મધરબોર્ડ પર",
+      "પાવર સપ્લાયમાં",
+      "મોનિટર પર"
+    ],
+    "correct": 1,
+    "explanation": "BIOS (Basic Input/Output System) ચિપ કમ્પ્યુટરના મુખ્ય સર્કિટ બોર્ડ એટલે કે Motherboard પર લાગેલી હોય છે.",
+    "img": null
+  },
+  {
+    "q": "ઈન્ટરનેટ જગતમાં 'WWW' ના શોધક કોણ છે?",
+    "options": [
+      "ટિમ બર્નર્સ-લી",
+      "બિલ ગેટ્સ",
+      "માર્ક ઝકરબર્ગ",
+      "સ્ટીવ જોબ્સ"
+    ],
+    "correct": 0,
+    "explanation": "ટીમ બર્નર્સ-લી (Tim Berners-Lee) એ વર્ષ 1989માં WWW (World Wide Web) ની શોધ કરી હતી.",
+    "img": null
+  },
+  {
+    "q": "MS PowerPoint માં તૈયાર થતી ફાઇલનું ડિફોલ્ટ એક્સટેન્શન (આધુનિક વર્ઝન) શું હોય છે?",
+    "options": [
+      ".docx",
+      ".xlsx",
+      ".pptx",
+      ".txt"
+    ],
+    "correct": 2,
+    "explanation": "MS PowerPoint ની ફાઇલનું એક્સટેન્શન .pptx (જૂના વર્ઝનમાં .ppt) હોય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં કંટ્રોલ યુનિટ (CU) નું મુખ્ય કાર્ય શું છે?",
+    "options": [
+      "ગાણિતિક ગણતરી કરવી",
+      "તમામ હાર્ડવેર અને ઓપરેશન્સનું સંકલન/નિયંત્રણ કરવું",
+      "ડેટા કાયમી સેવ કરવો",
+      "પ્રિન્ટ આઉટ આપવું"
+    ],
+    "correct": 1,
+    "explanation": "કંટ્રોલ યુનિટ (CU) કમ્પ્યુટરના તમામ ઘટકો અને ડેટાના પ્રવાહનું નિયંત્રણ અને સંચાલન કરે છે.",
+    "img": null
+  },
+  {
+    "q": "PDF ફાઇલને ઓપન કરવા માટે સામાન્ય રીતે કયા સોફ્ટવેરનો ઉપયોગ થાય છે?",
+    "options": [
+      "Adobe Acrobat Reader",
+      "MS Paint",
+      "Notepad",
+      "VLC Player"
+    ],
+    "correct": 0,
+    "explanation": "Adobe Acrobat Reader એ PDF ફાઇલો વાંચવા અને જોવા માટેનું લોકપ્રિય સોફ્ટવેર છે.",
+    "img": null
+  },
+  {
+    "q": "કીબોર્ડમાં કર્સરની જમણી બાજુના અક્ષરને ભૂંસવા માટે કઈ કી વપરાય છે?",
+    "options": [
+      "Backspace",
+      "Delete",
+      "Spacebar",
+      "Enter"
+    ],
+    "correct": 1,
+    "explanation": "Delete કી કર્સરની જમણી બાજુના અક્ષરને ભૂંસે છે, જ્યારે Backspace ડાબી બાજુના અક્ષરને ભૂંસે છે.",
+    "img": null
+  },
+  {
+    "q": "WAN નું પૂરું નામ શું છે?",
+    "options": [
+      "Wide Area Network",
+      "Wireless Access Network",
+      "Web Area Network",
+      "World Area Node"
+    ],
+    "correct": 0,
+    "explanation": "WAN એટલે Wide Area Network, જે દેશ કે સમગ્ર વિશ્વ જેવા વિશાળ ભૌગોલિક વિસ્તારમાં ફેલાયેલું નેટવર્ક છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં એક્ટિવ સેલનું એડ્રેસ ક્યાં જોવા મળે છે?",
+    "options": [
+      "સ્ટેટસ બારમાં",
+      "નેમ બોક્સ (Name Box) માં",
+      "ટાઇટલ બારમાં",
+      "ટાસ્ક બારમાં"
+    ],
+    "correct": 1,
+    "explanation": "હાલમાં પસંદ થયેલા (Active) સેલનું એડ્રેસ ફોર્મ્યુલા બારની ડાબી બાજુ આવેલા Name Box માં દેખાય છે.",
+    "img": null
+  },
+  {
+    "q": "વાયરલેસ નેટવર્કમાં 'Wi-Fi' નું પૂરું નામ શું થાય છે?",
+    "options": [
+      "Wireless Fidelity",
+      "Wireless Finder",
+      "Wide Frequency",
+      "Wireless Final"
+    ],
+    "correct": 0,
+    "explanation": "Wi-Fi નું પૂર્ણ સ્વરૂપ Wireless Fidelity થાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં બારકોડ રીડર (BCR) એ કયા પ્રકારનું ડિવાઇસ છે?",
+    "options": [
+      "આઉટપુટ ડિવાઇસ",
+      "ઇનપુટ ડિવાઇસ",
+      "સ્ટોરેજ ડિવાઇસ",
+      "પ્રોસેસિંગ ડિવાઇસ"
+    ],
+    "correct": 1,
+    "explanation": "બારકોડ રીડર ઉત્પાદન પરના બારકોડ સ્કેન કરીને ડેટા ઇનપુટ કરે છે, તેથી તે Input Device છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં ટેમ્પરરી ફાઇલોને સામાન્ય રીતે કયા એક્સટેન્શનથી ઓળખવામાં આવે છે?",
+    "options": [
+      ".tmp",
+      ".exe",
+      ".sys",
+      ".bat"
+    ],
+    "correct": 0,
+    "explanation": "ટેમ્પરરી (કામચલાઉ) ફાઇલોનું એક્સટેન્શન .tmp હોય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં સ્પેલિંગ અને ગ્રામર ચેક કરવા માટે કઈ ફંક્શન કી વપરાય છે?",
+    "options": [
+      "F1",
+      "F5",
+      "F7",
+      "F11"
+    ],
+    "correct": 2,
+    "explanation": "F7 ફંક્શન કીનો ઉપયોગ સ્પેલિંગ અને વ્યાકરણની ભૂલો સુધારવા (Spelling & Grammar Check) માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "ઇન્ટરનેટ પર અનિચ્છનીય અને બલ્કમાં આવતા કમર્શિયલ ઈમેલ્સને શું કહે છે?",
+    "options": [
+      "Spam (સ્પામ)",
+      "Draft (ડ્રાફ્ટ)",
+      "Inbox (ઇનબોક્સ)",
+      "Trash (ટ્રેશ)"
+    ],
+    "correct": 0,
+    "explanation": "જાહેરાતો અને બિનજરૂરી ઈમેલ્સ જે સામૂહિક રીતે મોકલવામાં આવે તેને Spam મેઇલ કહે છે.",
+    "img": null
+  },
+  {
+    "q": "1 ટેરાબાઇટ (TB) માં કેટલા ગીગાબાઇટ (GB) હોય છે?",
+    "options": [
+      "512 GB",
+      "1000 GB",
+      "1024 GB",
+      "2048 GB"
+    ],
+    "correct": 2,
+    "explanation": "1 TB (Terabyte) બરાબર 1024 GB (Gigabytes) થાય છે.",
+    "img": null
+  },
+  {
+    "q": "કોઈપણ પ્રોગ્રામમાં 'Help' મેળવવા માટે કઈ ફંક્શન કી વપરાય છે?",
+    "options": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "correct": 0,
+    "explanation": "મોટાભાગના સોફ્ટવેર અને ઓપરેટિંગ સિસ્ટમમાં F1 કી Help મેનૂ ઓપન કરવા માટે વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટર ડિસ્પ્લેમાં 'VGA' પોર્ટનું પૂરું નામ શું છે?",
+    "options": [
+      "Video Graphics Array",
+      "Visual General Access",
+      "Video Grid Adapter",
+      "Virtual Graphics Area"
+    ],
+    "correct": 0,
+    "explanation": "VGA એટલે Video Graphics Array, જે મોનિટરને CPU સાથે જોડવા માટે વપરાતો પોર્ટ છે.",
+    "img": null
+  }
+]
