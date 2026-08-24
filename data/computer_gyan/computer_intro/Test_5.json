@@ -1,0 +1,302 @@
+[
+  {
+    "q": "MS Word માં લખાણને બદલવા (Replace) માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + F",
+      "Ctrl + H",
+      "Ctrl + R",
+      "Ctrl + K"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl + H શોર્ટકટ કી 'Find and Replace' ડાયલોગ બોક્સ ખોલે છે, જેથી ચોક્કસ શબ્દને બીજા શબ્દ સાથે બદલી શકાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં બુટીંગ (Booting) ના મુખ્ય કેટલા પ્રકાર હોય છે?",
+    "options": [
+      "2 (Cold Booting અને Warm Booting)",
+      "3 (Fast, Slow અને Normal)",
+      "4 (Primary, Secondary, Tertiary અને Main)",
+      "1 (Auto Booting)"
+    ],
+    "correct": 0,
+    "explanation": "બૂટિંગના બે પ્રકાર છે: બંધ કમ્પ્યુટર ચાલુ કરવું એટલે 'Cold Booting' અને ચાલુ કમ્પ્યુટરને Restart કરવું એટલે 'Warm Booting'.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટર સ્પીડ સામાન્ય રીતે શેમાં માપવામાં આવે છે?",
+    "options": [
+      "વોટ (Watt)",
+      "હર્ટ્ઝ / ગીગાહર્ટ્ઝ (Hz / GHz)",
+      "બાઇટ્સ (Bytes)",
+      "વોલ્ટ (Volt)"
+    ],
+    "correct": 1,
+    "explanation": "પ્રોસેસરની ગતિ (ક્લોક સ્પીડ) મેગાહર્ટ્ઝ (MHz) અથવા ગીગાહર્ટ્ઝ (GHz) માં માપવામાં આવે છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં ફોર્મ્યુલા બારને એક્ટિવેટ કરવા માટે કઈ ફંક્શન કી વપરાય છે?",
+    "options": [
+      "F1",
+      "F2",
+      "F4",
+      "F9"
+    ],
+    "correct": 1,
+    "explanation": "કોઈપણ સિલેક્ટ કરેલા સેલને એડિટ કરવા માટે અથવા ફોર્મ્યુલા બાર એક્ટિવેટ કરવા F2 કી વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "MAN નું પૂરું નામ શું છે?",
+    "options": [
+      "Main Area Network",
+      "Metropolitan Area Network",
+      "Master Access Node",
+      "Multi Application Network"
+    ],
+    "correct": 1,
+    "explanation": "MAN નું પૂરું નામ Metropolitan Area Network છે, જે આખા શહેર જેવા વિસ્તારને આવરી લે છે.",
+    "img": null
+  },
+  {
+    "q": "MS PowerPoint માં પ્રેઝન્ટેશનને શરૂઆતથી નહીં પણ 'વર્તમાન સ્લાઇડ' થી શરૂ કરવા કઈ કી વપરાય છે?",
+    "options": [
+      "F5",
+      "Shift + F5",
+      "Ctrl + F5",
+      "Alt + F5"
+    ],
+    "correct": 1,
+    "explanation": "Shift + F5 વર્તમાન સ્લાઇડ પરથી સ્લાઇડ શો શરૂ કરે છે, જ્યારે F5 પ્રથમ સ્લાઇડથી શરૂ કરે છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કયું વેબ બ્રાઉઝર એપલ (Apple) કંપની દ્વારા વિકસાવવામાં આવ્યું છે?",
+    "options": [
+      "Chrome",
+      "Safari",
+      "Edge",
+      "Opera"
+    ],
+    "correct": 1,
+    "explanation": "Safari એ Apple કંપની દ્વારા વિકસિત અધિકૃત વેબ બ્રાઉઝર છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટર બંધ થતાં જ કઈ મેમરીનો તમામ ડેટા ભૂંસાઈ જાય છે?",
+    "options": [
+      "ROM",
+      "RAM",
+      "હાર્ડ ડિસ્ક",
+      "પેન ડ્રાઇવ"
+    ],
+    "correct": 1,
+    "explanation": "RAM એ અસ્થાયી (Volatile) મેમરી હોવાથી વીજળીનો પ્રવાહ બંધ થતાં જ તેમાં સંગ્રહાયેલો ડેટા નાશ પામે છે.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં લખાણના બંને છેડા સમાન કરવા (Justify Align) માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + J",
+      "Ctrl + L",
+      "Ctrl + R",
+      "Ctrl + E"
+    ],
+    "correct": 0,
+    "explanation": "Ctrl + J નો ઉપયોગ પેરાગ્રાફના બંને છેડા સરખા (Justify) કરવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "ઓપ્ટિકલ ડિસ્કની ક્ષમતા માપવા માટે DVD નું પૂરું નામ શું છે?",
+    "options": [
+      "Digital Versatile Disc",
+      "Dynamic Visual Data",
+      "Digital Video Drive",
+      "Direct Virtual Disc"
+    ],
+    "correct": 0,
+    "explanation": "DVD નું પૂરું નામ Digital Versatile Disc (અથવા Digital Video Disc) છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં 'Ctrl + Alt + Delete' એકસાથે દબાવવાથી શું ખુલે છે?",
+    "options": [
+      "ટાસ્ક મેનેજર / સુરક્ષા વિકલ્પો",
+      "MS Paint",
+      "ઇન્ટરનેટ એક્સપ્લોરર",
+      "કંટ્રોલ પેનલ"
+    ],
+    "correct": 0,
+    "explanation": "Ctrl + Alt + Delete દબાવવાથી Windows Security સ્ક્રીન અથવા Task Manager ખોલી શકાય છે.",
+    "img": null
+  },
+  {
+    "q": "ઈન્ટરનેટ એડ્રેસમાં '.org' ડોમેન શેનું પ્રતિનિધિત્વ કરે છે?",
+    "options": [
+      "વ્યાપારી સંસ્થા (Commercial)",
+      "બિનનફાકારક સંસ્થા (Organization)",
+      "શૈક્ષણિક સંસ્થા (Education)",
+      "સરકારી સંસ્થા (Government)"
+    ],
+    "correct": 1,
+    "explanation": "'.org' ડોમેન સામાન્ય રીતે Organization એટલે કે બિન-લાભકારી સંસ્થાઓ માટે વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં કુલ રો (Rows) ની મહત્તમ સંખ્યા કેટલી હોય છે (Office 2007 અને પછી)?",
+    "options": [
+      "65,536",
+      "1,048,576",
+      "16,384",
+      "5,00,000"
+    ],
+    "correct": 1,
+    "explanation": "MS Excel ના નવા વર્ઝનમાં એક વર્કશીટમાં 10,48,576 Rows અને 16,384 Columns હોય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં બારકોડ અથવા ચિત્રોને ડિજિટલ ટેક્સ્ટમાં ફેરવવાની ટેકનોલોજીને શું કહે છે?",
+    "options": [
+      "OMR",
+      "OCR (Optical Character Recognition)",
+      "MICR",
+      "BCR"
+    ],
+    "correct": 1,
+    "explanation": "OCR (Optical Character Recognition) છાપેલા અક્ષરોને ડિજિટલ ટેક્સ્ટમાં કન્વર્ટ કરે છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરને નેટવર્ક સાથે જોડવા માટે કયા કાર્ડની જરૂર પડે છે?",
+    "options": [
+      "સાઉન્ડ કાર્ડ",
+      "NIC (Network Interface Card)",
+      "ગ્રાફિક્સ કાર્ડ",
+      "ટીવી ટ્યુનર કાર્ડ"
+    ],
+    "correct": 1,
+    "explanation": "NIC (Network Interface Card) કમ્પ્યુટરને LAN કે નેટવર્ક કેબલ સાથે જોડવા માટે વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં લખાણ પર 'હાઇપરલિંક' (Hyperlink) ઉમેરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + H",
+      "Ctrl + K",
+      "Ctrl + L",
+      "Ctrl + P"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl + K શોર્ટકટ કી દ્વારા પસંદ કરેલા શબ્દ સાથે કોઈપણ લિંક જોડી (Insert Hyperlink) શકાય છે.",
+    "img": null
+  },
+  {
+    "q": "ઓપરેટિંગ સિસ્ટમમાં 'GUI' ની સરખામણીએ 'CLI' નું પૂરું નામ શું છે?",
+    "options": [
+      "Command Line Interface",
+      "Common Language Instruction",
+      "Central Line Input",
+      "Computer Level Interface"
+    ],
+    "correct": 0,
+    "explanation": "CLI નું પૂર્ણ રૂપ Command Line Interface છે (જેમ કે MS-DOS), જેમાં કમાન્ડ ટાઈપ કરીને કામ થાય છે.",
+    "img": null
+  },
+  {
+    "q": "બેંકના ચેક પર લખેલા સ્પેશિયલ મેગ્નેટિક કોડ વાંચવા કયું ડિવાઇસ વપરાય છે?",
+    "options": [
+      "OCR",
+      "MICR",
+      "OMR",
+      "BCR"
+    ],
+    "correct": 1,
+    "explanation": "MICR (Magnetic Ink Character Recognition) નો ઉપયોગ બેંક ચેક નંબર અને શાખા કોડ વાંચવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં સમગ્ર કૉલમ (Column) પસંદ કરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Shift + Space",
+      "Ctrl + Space",
+      "Ctrl + Shift + Space",
+      "Alt + Space"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl + Space આખી કૉલમ (Column) સિલેક્ટ કરે છે, જ્યારે Shift + Space આખી રો (Row) સિલેક્ટ કરે છે.",
+    "img": null
+  },
+  {
+    "q": "VPN નું પૂરું નામ શું થાય છે?",
+    "options": [
+      "Virtual Private Network",
+      "Visual Public Node",
+      "Virtual Protocol Network",
+      "Verified Private Network"
+    ],
+    "correct": 0,
+    "explanation": "VPN એટલે Virtual Private Network, જે ઇન્ટરનેટ પર સુરક્ષિત અને એન્ક્રિપ્ટેડ કનેક્શન પૂરું પાડે છે.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં પ્રિન્ટ પ્રિવ્યૂ (Print Preview) જોવા અથવા પ્રિન્ટ ડાયલોગ બોક્સ ખોલવા કઈ કી વપરાય છે?",
+    "options": [
+      "Ctrl + P",
+      "Ctrl + F2",
+      "(A) અને (B) બંને",
+      "Alt + P"
+    ],
+    "correct": 2,
+    "explanation": "Ctrl + P અને Ctrl + F2 બંને કી પ્રિન્ટ સેટિંગ્સ અને પ્રિવ્યૂ ખોલવા માટે વાપરી શકાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં બાયોસ (BIOS) નું પૂરું નામ શું છે?",
+    "options": [
+      "Basic Input Output System",
+      "Binary Input Operating System",
+      "Base Integrated Operating Software",
+      "Basic Internal Output Source"
+    ],
+    "correct": 0,
+    "explanation": "BIOS નું પૂરું નામ Basic Input Output System છે, જે હાર્ડવેરને શરૂ અને ટેસ્ટ કરે છે.",
+    "img": null
+  },
+  {
+    "q": "1 પેટાબાઇટ (PB) બરાબર કેટલા ટેરાબાઇટ (TB) થાય?",
+    "options": [
+      "512 TB",
+      "1000 TB",
+      "1024 TB",
+      "2048 TB"
+    ],
+    "correct": 2,
+    "explanation": "1 PB (Petabyte) = 1024 TB (Terabytes) થાય છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કઈ પ્રોગ્રામિંગ ભાષા વેબપેજ ડિઝાઇનિંગ અને સ્ટાઇલિંગ માટે વપરાય છે?",
+    "options": [
+      "HTML",
+      "CSS",
+      "SQL",
+      "C++"
+    ],
+    "correct": 1,
+    "explanation": "CSS (Cascading Style Sheets) નો ઉપયોગ વેબપેજનું લેઆઉટ, કલર અને સ્ટાઇલિંગ કરવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં ક્રોમ કે ફાયરફોક્સ બ્રાઉઝરમાં ઇનકોગ્નિટો (ખાનગી બ્રાઉઝિંગ) વિન્ડો ખોલવા કઈ કી વપરાય છે?",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + Shift + N",
+      "Ctrl + T",
+      "Ctrl + Shift + T"
+    ],
+    "correct": 1,
+    "explanation": "Google Chrome માં નવી Incognito (પ્રાઇવેટ) વિન્ડો ખોલવા Ctrl + Shift + N વપરાય છે.",
+    "img": null
+  }
+]
