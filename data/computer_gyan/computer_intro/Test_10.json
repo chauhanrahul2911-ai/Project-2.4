@@ -1,0 +1,302 @@
+[
+  {
+    "q": "કમ્પ્યુટર પ્રકાશન સંદર્ભે 'DTP' નું પૂરું નામ શું છે?",
+    "options": [
+      "Desktop Publishing",
+      "Digital Text Processing",
+      "Data Transfer Protocol",
+      "Direct Type Printing"
+    ],
+    "correct": 0,
+    "explanation": "DTP એટલે Desktop Publishing, જે પુસ્તકો, મેગેઝિન અને પત્રિકાઓના લેઆઉટ તથા ડિઝાઇનિંગ માટે વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "લેસર પ્રિન્ટરની પ્રિન્ટિંગ ઝડપ સામાન્ય રીતે શેમાં માપવામાં આવે છે?",
+    "options": [
+      "CPS (Characters Per Second)",
+      "LPM (Lines Per Minute)",
+      "PPM (Pages Per Minute)",
+      "DPI (Dots Per Inch)"
+    ],
+    "correct": 2,
+    "explanation": "લેસર પ્રિન્ટરની ઝડપ PPM (Pages Per Minute) માં અને તેની પ્રિન્ટ ક્વોલિટી DPI (Dots Per Inch) માં માપવામાં આવે છે.",
+    "img": null
+  },
+  {
+    "q": "ડાયનેમિક રેમ (DRAM) ને સ્થિર રાખવા માટે વારંવાર શું કરવું પડે છે?",
+    "options": [
+      "ફોર્મેટ (Format)",
+      "રિફ્રેશ (Refresh)",
+      "ડીલીટ (Delete)",
+      "શટડાઉન (Shutdown)"
+    ],
+    "correct": 1,
+    "explanation": "DRAM માં ડેટા સંગ્રહવા માટે કેપેસિટર વપરાય છે, જેથી તેમાં રહેલો ડેટા જાળવી રાખવા તેને સેકન્ડમાં સેંકડો વખત Refresh કરવો પડે છે.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં પેજના ઉપરના ભાગે આવતા લખાણ કે શીર્ષકને શું કહેવાય છે?",
+    "options": [
+      "Header",
+      "Footer",
+      "Footnote",
+      "Endnote"
+    ],
+    "correct": 0,
+    "explanation": "દરેક પેજના ટોચના ભાગે આવતા સામાન્ય લખાણ કે પેજ નંબરને Header અને તળિયે આવતા ભાગને Footer કહે છે.",
+    "img": null
+  },
+  {
+    "q": "ઓપ્ટિકલ ફાઈબર કેબલમાં ડેટા કયા સ્વરૂપે વહન પામે છે?",
+    "options": [
+      "વિદ્યુત પ્રવાહ (Electric Current)",
+      "પ્રકાશ તરંગો (Light Pulses)",
+      "ધ્વનિ તરંગો (Sound Waves)",
+      "રેડિયો તરંગો (Radio Waves)"
+    ],
+    "correct": 1,
+    "explanation": "ઓપ્ટિકલ ફાઈબર કેબલમાં ડેટા પૂર્ણ આંતરિક પરાવર્તન (Total Internal Reflection) દ્વારા પ્રકાશના કિરણો સ્વરૂપે ખૂબ ઝડપથી પ્રવાસ કરે છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કયો સોફ્ટવેર DTP (Desktop Publishing) માટે વપરાય છે?",
+    "options": [
+      "Adobe PageMaker",
+      "CorelDRAW",
+      "Adobe InDesign",
+      "આપેલ તમામ"
+    ],
+    "correct": 3,
+    "explanation": "PageMaker, CorelDRAW અને InDesign ત્રણેય ગ્રાફિક ડિઝાઇનિંગ અને DTP માટેના પ્રખ્યાત સોફ્ટવેર છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં ડિસ્ક ફોર્મેટ (Format) કરવાની મુખ્ય અસર શું થાય છે?",
+    "options": [
+      "માત્ર વાયરસ ડિલીટ થાય છે",
+      "ડિસ્ક પરનો તમામ જૂનો ડેટા ભૂંસાઈ નવી ફાઇલ સિસ્ટમ બને છે",
+      "કમ્પ્યુટરની સ્પીડ અડધી થઈ જાય છે",
+      "ઇન્ટરનેટ કનેક્શન બંધ થઈ જાય છે"
+    ],
+    "correct": 1,
+    "explanation": "Format કરવાથી સ્ટોરેજ ડિવાઇસનો તમામ ડેટા ભૂંસાઈ જાય છે અને તે નવા ડેટા સંગ્રહ માટે સંપૂર્ણ તૈયાર થાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel 2003 માં એક વર્કશીટમાં રો (Rows) ની કુલ સંખ્યા કેટલી હતી?",
+    "options": [
+      "32,768",
+      "65,536",
+      "1,28,000",
+      "10,48,576"
+    ],
+    "correct": 1,
+    "explanation": "જૂના Excel 2003 વર્ઝનમાં કુલ 65,536 Rows અને 256 Columns હતા (જ્યારે Excel 2007 પછી 10,48,576 Rows છે).",
+    "img": null
+  },
+  {
+    "q": "MS Word માં લખાણમાં કોઈ ખાસ ચિહ્ન (Symbol) ઉમેરવા કયા મેનૂનો ઉપયોગ થાય છે?",
+    "options": [
+      "Home Menu",
+      "Insert Menu",
+      "View Menu",
+      "Review Menu"
+    ],
+    "correct": 1,
+    "explanation": "Symbol, Equation, Shapes કે Picture ઉમેરવા માટે Insert મેનૂનો ઉપયોગ થાય છે.",
+    "img": null
+  },
+  {
+    "q": "ઇંકજેટ પ્રિન્ટરમાં પ્રિન્ટિંગ કરવા માટે શેનો ઉપયોગ થાય છે?",
+    "options": [
+      "ટોનર પાવડર",
+      "પ્રવાહી શાહી કાર્ટ્રીજ (Liquid Ink Cartridge)",
+      "કાર્બન રીબન",
+      "હીટ સેન્સર માત્ર"
+    ],
+    "correct": 1,
+    "explanation": "ઇંકજેટ પ્રિન્ટર કાગળ પર પ્રવાહી શાહીના સૂક્ષ્મ ટીપાં સ્પ્રે કરીને પ્રિન્ટ કરે છે, જેમાં Cartridge વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટર સાયન્સમાં 'SRAM' નું પૂરું નામ શું છે?",
+    "options": [
+      "Static Random Access Memory",
+      "Serial Random Access Memory",
+      "Standard Read Access Memory",
+      "System Random Active Memory"
+    ],
+    "correct": 0,
+    "explanation": "SRAM એટલે Static Random Access Memory, જે DRAM કરતાં ઝડપી હોય છે અને Cache મેમરી તરીકે વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં લખાણ પર 'વાંચન પ્રક્રિયા સરળ કરવા' કયો વ્યુ મોડ શ્રેષ્ઠ છે?",
+    "options": [
+      "Print Layout",
+      "Read Mode / Full Screen Reading",
+      "Web Layout",
+      "Draft"
+    ],
+    "correct": 1,
+    "explanation": "Read Mode અથવા Full Screen Reading મોડ બિનજરૂરી ટૂલબાર છુપાવીને દસ્તાવેજ વાંચવા માટે પુસ્તક જેવો વ્યુ આપે છે.",
+    "img": null
+  },
+  {
+    "q": "નેટવર્કમાં વપરાતા 'UTP' કેબલનું પૂરું નામ શું છે?",
+    "options": [
+      "Unshielded Twisted Pair",
+      "Universal Transmission Port",
+      "Unified Twisted Path",
+      "Ultra Telecommunication Protocol"
+    ],
+    "correct": 0,
+    "explanation": "UTP એટલે Unshielded Twisted Pair, જે LAN જોડાણો માટે સૌથી વધુ વપરાતો ટ્વિસ્ટેડ પેર વાયર છે.",
+    "img": null
+  },
+  {
+    "q": "MS PowerPoint માં તમામ સ્લાઇડ્સની એકસાથે નાની થમ્બનેલ (Thumbnail) જોવા કયો વ્યુ વપરાય છે?",
+    "options": [
+      "Slide Sorter View",
+      "Normal View",
+      "Reading View",
+      "Notes Page View"
+    ],
+    "correct": 0,
+    "explanation": "Slide Sorter View તમામ સ્લાઇડ્સને નાના લઘુચિત્રો (Thumbnails) તરીકે દર્શાવે છે, જેથી સ્લાઇડ્સનો ક્રમ સરળતાથી બદલી શકાય.",
+    "img": null
+  },
+  {
+    "q": "ડોટ મેટ્રિક્સ પ્રિન્ટર (Dot Matrix Printer) માં શાહી માટે શેનો ઉપયોગ થાય છે?",
+    "options": [
+      "ટોનર બોક્સ",
+      "ઇંક કાર્ટ્રીજ",
+      "શાહીવાળી રીબન (Inked Ribbon)",
+      "લેસર બીમ"
+    ],
+    "correct": 2,
+    "explanation": "ડોટ મેટ્રિક્સ પ્રિન્ટરમાં ટાઇપરાઇટરની જેમ પ્રિન્ટ હેડ પિન વડે ઇંક્ડ રીબન પર પ્રહાર કરીને અક્ષરો છાપે છે.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં લખાણની નીચે આપોઆપ લાલ તરંગિત લીટી (Red Wavy Line) શું દર્શાવે છે?",
+    "options": [
+      "વ્યાકરણની ભૂલ (Grammar Error)",
+      "જોડણીની ભૂલ (Spelling Error)",
+      "પ્રિન્ટિંગ મિસ્ટેક",
+      "હાઇપરલિંક"
+    ],
+    "correct": 1,
+    "explanation": "લાલ લીટી Spelling Error (જોડણીની ભૂલ) અને લીલી/વાદળી લીટી Grammar Error દર્શાવે છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટર નેટવર્કમાં 'Switch' ડિવાઇસ કયા લેયર પર કામ કરે છે?",
+    "options": [
+      "ફિઝિકલ લેયર",
+      "ડેટા લિંક લેયર (Data Link Layer)",
+      "એપ્લિકેશન લેયર",
+      "ટ્રાન્સપોર્ટ લેયર"
+    ],
+    "correct": 1,
+    "explanation": "નેટવર્ક સ્વિચ OSI મોડેલના Layer 2 (Data Link Layer) પર કાર્ય કરે છે અને MAC એડ્રેસના આધારે પેકેટ મોકલે છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં એક્ટિવ સેલની જમણી બાજુના સેલમાં જવા કઈ કી વપરાય છે?",
+    "options": [
+      "Tab",
+      "Enter",
+      "Shift + Tab",
+      "Shift + Enter"
+    ],
+    "correct": 0,
+    "explanation": "Tab કી કર્સરને જમણી બાજુના સેલમાં ખસેડે છે અને Shift + Tab ડાબી બાજુના સેલમાં પાછા લઈ જાય છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કઈ કંપની 'ThinkPad' શ્રેણીના કમ્પ્યુટર્સના મૂળ નિર્માતા તરીકે જાણીતી છે?",
+    "options": [
+      "IBM",
+      "Apple",
+      "Microsoft",
+      "Dell"
+    ],
+    "correct": 0,
+    "explanation": "IBM દ્વારા ThinkPad શ્રેણીની શરૂઆત કરવામાં આવી હતી, જે બાદમાં Lenovo કંપનીએ હસ્તગત કરી લીધી હતી.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં લખાણના ચોક્કસ પેજ કે સેક્શન પર સીધા જવા (Go To) કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + G",
+      "Ctrl + J",
+      "Ctrl + T",
+      "Ctrl + P"
+    ],
+    "correct": 0,
+    "explanation": "Ctrl + G શોર્ટકટ કી 'Find and Replace' બોક્સ હેઠળ 'Go To' ટેબ ઓપન કરે છે.",
+    "img": null
+  },
+  {
+    "q": "પ્રિન્ટરની છાપવાની ગુણવત્તા (Resolution) શેમાં માપવામાં આવે છે?",
+    "options": [
+      "PPM",
+      "DPI (Dots Per Inch)",
+      "BPS",
+      "CPS"
+    ],
+    "correct": 1,
+    "explanation": "પ્રિન્ટર ક્વોલિટી DPI (Dots Per Inch) માં માપવામાં આવે છે; જેટલા DPI વધારે તેટલું પ્રિન્ટ સ્પષ્ટ આવે છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટર સ્ક્રીન પર દેખાતા કર્સરનું બીજું પ્રચલિત નામ શું છે?",
+    "options": [
+      "પોઇન્ટર (Pointer / Insertion Point)",
+      "ટ્રેકર",
+      "બ્લિન્કર",
+      "સિલેક્ટર"
+    ],
+    "correct": 0,
+    "explanation": "માઉસ પોઇન્ટર અથવા જ્યાં લખાણ ટાઇપ થાય છે તે ઝબૂકતી લીટીને Insertion Point / Pointer કહેવાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં એક જ વર્કશીટમાં કેટલીક રો અને કોલમને સ્થિર (Freeze) રાખવા કયું ટૂલ વપરાય છે?",
+    "options": [
+      "Freeze Panes",
+      "Lock Cells",
+      "Fixed Grid",
+      "Split View"
+    ],
+    "correct": 0,
+    "explanation": "Freeze Panes નો ઉપયોગ સ્ક્રોલ કરતી વખતે હેડિંગ રો કે કોલમને સ્ક્રીન પર સ્થિર રાખવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કયો નેટવર્ક ટોપોલોજીનો પ્રકાર નથી?",
+    "options": [
+      "Star Topology",
+      "Bus Topology",
+      "Ring Topology",
+      "Square Topology"
+    ],
+    "correct": 3,
+    "explanation": "નેટવર્ક ટોપોલોજીમાં Star, Bus, Ring, Mesh અને Tree હોય છે, Square Topology નામનો કોઈ માન્ય પ્રકાર નથી.",
+    "img": null
+  },
+  {
+    "q": "MS PowerPoint પ્રેઝન્ટેશનમાં સ્લાઇડ પર આવતી વિશેષ એન્ટ્રી/એક્ઝિટ અસરોને શું કહે છે?",
+    "options": [
+      "Slide Transition / Animation",
+      "Slide Color",
+      "Theme Design",
+      "Custom Filter"
+    ],
+    "correct": 0,
+    "explanation": "એક સ્લાઇડમાંથી બીજી સ્લાઇડમાં જતી વખતે થતા ફેરફારને Transition અને ઓબ્જેક્ટની હલચલને Animation કહેવાય છે.",
+    "img": null
+  }
+]
