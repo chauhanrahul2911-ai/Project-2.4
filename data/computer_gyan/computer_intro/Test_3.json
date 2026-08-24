@@ -1,0 +1,302 @@
+[
+  {
+    "q": "MS Word માં લખાણને Cut કરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + X",
+      "Ctrl + V",
+      "Ctrl + Z"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl + X નો ઉપયોગ પસંદ કરેલા ટેક્સ્ટ અથવા ઓબ્જેક્ટને Cut કરવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં બાયનરી પદ્ધતિ (Binary System) માં કયા બે અંકોનો ઉપયોગ થાય છે?",
+    "options": [
+      "0 અને 1",
+      "1 અને 2",
+      "0 અને 9",
+      "1 અને 10"
+    ],
+    "correct": 0,
+    "explanation": "બાયનરી સિસ્ટમ એ બેઝ-2 સિસ્ટમ છે, જેમાં માત્ર 0 અને 1 બે અંકો જ વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં કોઈપણ ફોર્મ્યુલાની શરૂઆત કયા ચિહ્નથી થાય છે?",
+    "options": [
+      "+ (પ્લસ)",
+      "= (બરાબર)",
+      "@ (એટ ધ રેટ)",
+      "# (હેશ)"
+    ],
+    "correct": 1,
+    "explanation": "MS Excel માં કોઈ પણ સૂત્ર કે ફોર્મ્યુલા લખવા માટે સૌથી પહેલા બરાબર (=) નું ચિહ્ન મૂકવું ફરજિયાત છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટર સુરક્ષા સંદર્ભે 'OTP' નું પૂરું નામ શું છે?",
+    "options": [
+      "One Time Password",
+      "Only True Password",
+      "One Time Protocol",
+      "Open Text Password"
+    ],
+    "correct": 0,
+    "explanation": "OTP નું પૂર્ણ રૂપ One Time Password છે, જે સુરક્ષિત લોગિન અને ટ્રાન્ઝેક્શન માટે વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કયું સૌથી ઝડપી ડેટા એક્સેસ કરતી મેમરી છે?",
+    "options": [
+      "હાર્ડ ડિસ્ક",
+      "કેશ મેમરી (Cache Memory)",
+      "RAM",
+      "ROM"
+    ],
+    "correct": 1,
+    "explanation": "કેશ મેમરી એ CPU અને RAM વચ્ચે આવેલી અત્યંત ઝડપી મેમરી છે.",
+    "img": null
+  },
+  {
+    "q": "URL નું પૂરું નામ શું છે?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Radio Link",
+      "Uniform Registered Link",
+      "United Resource Locator"
+    ],
+    "correct": 0,
+    "explanation": "ઇન્ટરનેટ પર કોઈપણ વેબપેજના સરનામાને Uniform Resource Locator (URL) કહેવાય છે.",
+    "img": null
+  },
+  {
+    "q": "ઇન્ટરનેટ પર ઈમેલ મોકલવા માટે કયા પ્રોટોકોલનો મુખ્યત્વે ઉપયોગ થાય છે?",
+    "options": [
+      "SMTP",
+      "FTP",
+      "POP3",
+      "DHCP"
+    ],
+    "correct": 0,
+    "explanation": "SMTP (Simple Mail Transfer Protocol) નો ઉપયોગ ઈમેલ મોકલવા (Send કરવા) માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં બૂટિંગ (Booting) પ્રક્રિયા દરમિયાન કઈ સિસ્ટમ ફાઇલો મેમરીમાં લોડ થાય છે?",
+    "options": [
+      "એપ્લિકેશન સોફ્ટવેર",
+      "ઓપરેટિંગ સિસ્ટમ",
+      "એન્ટિવાયરસ",
+      "ડિવાઇસ ડ્રાઇવર્સ માત્ર"
+    ],
+    "correct": 1,
+    "explanation": "કમ્પ્યુટર શરૂ કરતી વખતે ઓપરેટિંગ સિસ્ટમને ROM/Storage માંથી RAM માં લોડ કરવાની પ્રક્રિયાને બૂટિંગ કહેવાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS PowerPoint માં નવી સ્લાઇડ ઉમેરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + M",
+      "Ctrl + S",
+      "Ctrl + D"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl + M નો ઉપયોગ વર્તમાન પ્રેઝન્ટેશનમાં નવી સ્લાઇડ ઉમેરવા માટે થાય છે, જ્યારે Ctrl + N નવી ફાઇલ બનાવે છે.",
+    "img": null
+  },
+  {
+    "q": "નીચે પૈકી કયું ઓપન સોર્સ (Open Source) ઓપરેટિંગ સિસ્ટમનું ઉદાહરણ છે?",
+    "options": [
+      "Windows 11",
+      "macOS",
+      "Linux",
+      "iOS"
+    ],
+    "correct": 2,
+    "explanation": "Linux એ ઓપન સોર્સ ઓપરેટિંગ સિસ્ટમ છે, જેનો સોર્સ કોડ મુક્તપણે ઉપલબ્ધ હોય છે.",
+    "img": null
+  },
+  {
+    "q": "PDF નું પૂરું નામ શું છે?",
+    "options": [
+      "Portable Document Format",
+      "Printable Document File",
+      "Public Data File",
+      "Program Document Format"
+    ],
+    "correct": 0,
+    "explanation": "PDF નું પૂર્ણ રૂપ Portable Document Format છે, જે એડોબ દ્વારા વિકસાવવામાં આવ્યું હતું.",
+    "img": null
+  },
+  {
+    "q": "કીબોર્ડમાં 'F1' થી 'F12' સુધીની કીને કયા નામે ઓળખવામાં આવે છે?",
+    "options": [
+      "ન્યૂમેરિક કી",
+      "ફંક્શન કી (Function Keys)",
+      "કંટ્રોલ કી",
+      "નેવિગેશન કી"
+    ],
+    "correct": 1,
+    "explanation": "F1 થી F12 સુધીની ટોચ પર આવેલી કીને Function Keys કહેવામાં આવે છે.",
+    "img": null
+  },
+  {
+    "q": "GUI નું પૂરું નામ શું છે?",
+    "options": [
+      "Graphical User Interface",
+      "General User Instruction",
+      "Global Utility Internet",
+      "Guided User Input"
+    ],
+    "correct": 0,
+    "explanation": "GUI એટલે Graphical User Interface, જે યુઝરને વિઝ્યુઅલ આઇકન્સ દ્વારા કમ્પ્યુટર સાથે ઇન્ટરેક્ટ કરવાની સુવિધા આપે છે.",
+    "img": null
+  },
+  {
+    "q": "LAN નું પૂરું નામ શું થાય છે?",
+    "options": [
+      "Large Area Network",
+      "Local Area Network",
+      "Logical Access Network",
+      "Link Auto Network"
+    ],
+    "correct": 1,
+    "explanation": "LAN એટલે Local Area Network, જે મર્યાદિત ભૌગોલિક વિસ્તાર જેમ કે ઓફિસ કે બિલ્ડિંગ પૂરતું સીમિત હોય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Word માં આખા દસ્તાવેજ (All Text) ને એકસાથે પસંદ કરવા માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + S",
+      "Ctrl + A",
+      "Ctrl + B",
+      "Ctrl + U"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl + A (Select All) દ્વારા આખા ડોક્યુમેન્ટના તમામ લખાણને એકસાથે સિલેક્ટ કરી શકાય છે.",
+    "img": null
+  },
+  {
+    "q": "નીચેનામાંથી કયું સોશિયલ મીડિયા નેટવર્ક નથી?",
+    "options": [
+      "Facebook",
+      "Twitter (X)",
+      "LinkedIn",
+      "Google Chrome"
+    ],
+    "correct": 3,
+    "explanation": "Google Chrome એ વેબ બ્રાઉઝર છે, સોશિયલ મીડિયા પ્લેટફોર્મ નથી.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં ડિલીટ કરેલી ફાઇલો કામચલાઉ રીતે ક્યાં સંગ્રહાય છે?",
+    "options": [
+      "કંટ્રોલ પેનલ",
+      "રિસાયકલ બિન (Recycle Bin)",
+      "ટાસ્કબાર",
+      "માય નેટવર્ક"
+    ],
+    "correct": 1,
+    "explanation": "સામાન્ય રીતે ડિલીટ કરેલી ફાઇલો રિસાયકલ બિનમાં જાય છે, જ્યાંથી તેને પુનઃપ્રાપ્ત (Restore) કરી શકાય છે.",
+    "img": null
+  },
+  {
+    "q": "કોઈપણ ફાઇલને કાયમ માટે (Permanently) ડિલીટ કરવા કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Delete",
+      "Shift + Delete",
+      "Ctrl + Delete",
+      "Alt + Delete"
+    ],
+    "correct": 1,
+    "explanation": "Shift + Delete કી દબાવવાથી ફાઇલ Recycle Bin માં ગયા વિના કાયમી માટે ડિલીટ થઈ જાય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટર મોનિટરનું રિઝોલ્યુશન શેમાં માપવામાં આવે છે?",
+    "options": [
+      "પિક્સેલ્સ (Pixels)",
+      "બીટ્સ (Bits)",
+      "હર્ટ્ઝ (Hertz)",
+      "ઇંચ (Inches)"
+    ],
+    "correct": 0,
+    "explanation": "સ્ક્રીનનું રિઝોલ્યુશન પિક્સેલ્સ (Pixels - Picture Elements) ની સંખ્યામાં માપવામાં આવે છે.",
+    "img": null
+  },
+  {
+    "q": "IPv4 એડ્રેસ કેટલા બિટ્સ (Bits) નું બનેલું હોય છે?",
+    "options": [
+      "16 બિટ્સ",
+      "32 બિટ્સ",
+      "64 બિટ્સ",
+      "128 બિટ્સ"
+    ],
+    "correct": 1,
+    "explanation": "IPv4 એડ્રેસ 32 બિટ્સ (4 બાઇટ્સ) નું હોય છે, જ્યારે IPv6 એડ્રેસ 128 બિટ્સનું હોય છે.",
+    "img": null
+  },
+  {
+    "q": "કમ્પ્યુટરમાં ગાણિતિક અને તાર્કિક ગણતરીઓ કયો ભાગ કરે છે?",
+    "options": [
+      "CU (Control Unit)",
+      "ALU (Arithmetic Logic Unit)",
+      "MU (Memory Unit)",
+      "Register"
+    ],
+    "correct": 1,
+    "explanation": "ALU નું પૂરું નામ Arithmetic Logic Unit છે, જે તમામ ગણતરીઓ અને તાર્કિક સરખામણીઓ કરે છે.",
+    "img": null
+  },
+  {
+    "q": "HTTP અને HTTPS માં 'S' નો અર્થ શું થાય છે?",
+    "options": [
+      "Simple",
+      "Secure",
+      "Standard",
+      "System"
+    ],
+    "correct": 1,
+    "explanation": "HTTPS એટલે HyperText Transfer Protocol Secure, જેમાં 'S' નો અર્થ Secure થાય છે.",
+    "img": null
+  },
+  {
+    "q": "MS Excel માં સૌથી છેલ્લી ક્રિયા રદ કરવા (Undo) માટે કઈ શોર્ટકટ કી વપરાય છે?",
+    "options": [
+      "Ctrl + Y",
+      "Ctrl + Z",
+      "Ctrl + U",
+      "Ctrl + R"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl + Z નો ઉપયોગ છેલ્લે કરેલા ફેરફારને Undo કરવા માટે થાય છે.",
+    "img": null
+  },
+  {
+    "q": "નીચે પૈકી કયું ઇનપુટ ઉપકરણ (Input Device) છે?",
+    "options": [
+      "સ્કેનર (Scanner)",
+      "પ્લોટર (Plotter)",
+      "પ્રોજેક્ટર (Projector)",
+      "હેડફોન (Headphones)"
+    ],
+    "correct": 0,
+    "explanation": "સ્કેનર એ દસ્તાવેજો કે ફોટાને ડિજિટલ સ્વરૂપમાં કમ્પ્યુટરમાં દાખલ કરવા માટેનું Input ઉપકરણ છે.",
+    "img": null
+  },
+  {
+    "q": "1 ગીગાબાઇટ (GB) બરાબર કેટલા મેગાબાઇટ (MB) થાય?",
+    "options": [
+      "1000 MB",
+      "1024 MB",
+      "512 MB",
+      "2048 MB"
+    ],
+    "correct": 1,
+    "explanation": "1 GB = 1024 MB (Megabytes) થાય છે.",
+    "img": null
+  }
+]
