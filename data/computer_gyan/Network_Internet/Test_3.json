@@ -2,36 +2,36 @@
   {
     "q": "નેટવર્કિંગના પ્રમાણભૂત માળખા તરીકે જાણીતા OSI (Open Systems Interconnection) મોડેલમાં કુલ કેટલા સ્તરો (Layers) હોય છે?",
     "options": [
-      "7 લેયર્સ",
-      "4 લેયર્સ",
-      "5 લેયર્સ",
-      "6 લેયર્સ"
+      "૪ લેયર્સ (4 સ્તરો)",
+      "૫ લેયર્સ (5 સ્તરો)",
+      "૭ લેયર્સ (7 સ્તરો)",
+      "૬ લેયર્સ (6 સ્તરો)"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "ISO દ્વારા 1984 માં વિકસિત OSI રેફરન્સ મોડેલમાં 7 સ્તરો છે: ફિઝિકલ, ડેટા લિંક, નેટવર્ક, ટ્રાન્સપોર્ટ, સેશન, પ્રેઝન્ટેશન અને એપ્લિકેશન લેયર.",
     "img": null
   },
   {
     "q": "OSI મોડેલના સાતેય સ્તરોમાં સૌથી નીચેનું પ્રથમ સ્તર (Layer 1) કયું છે જે બાયનરી બિટ્સનું સંચાર માધ્યમ પર વહન કરે છે?",
     "options": [
-      "ફિઝિકલ લેયર (Physical Layer)",
-      "ડેટા લિંક લેયર",
-      "નેટવર્ક લેયર",
-      "ટ્રાન્સપોર્ટ લેયર"
+      "નેટવર્ક લેયર (Network Layer)",
+      "ટ્રાન્સપોર્ટ લેયર (Transport Layer)",
+      "ડેટા લિંક લેયર (Data Link Layer)",
+      "ફિઝિકલ લેયર (Physical Layer)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Physical Layer કેબલ્સ, કનેક્ટર્સ, વોલ્ટેજ લેવલ અને બિટ-બાય-બિટ ટ્રાન્સમિશન સાથે સીધું સંકળાયેલું છે.",
     "img": null
   },
   {
     "q": "નેટવર્ક સ્વિચ અને બ્રિજ જેવા ઉપકરણો OSI મોડેલના કયા બીજા સ્તર (Layer 2) પર MAC એડ્રેસના આધારે કાર્ય કરે છે?",
     "options": [
+      "ફિઝિકલ લેયર (Physical Layer)",
       "ડેટા લિંક લેયર (Data Link Layer)",
-      "ફિઝિકલ લેયર",
-      "નેટવર્ક લેયર",
-      "સેશન લેયર"
+      "નેટવર્ક લેયર (Network Layer)",
+      "સેશન લેયર (Session Layer Protocol)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Data Link Layer પર ડેટાને 'Frames' માં વિભાજિત કરવામાં આવે છે અને ભૌતિક MAC એડ્રેસિંગ તથા એરર ડિટેક્શન (CRC) થાય છે.",
     "img": null
   },
@@ -39,9 +39,9 @@
     "q": "ડેટા પેકેટ્સનું રાઉટિંગ અને લોજિકલ IP એડ્રેસિંગ OSI મોડેલના કયા ત્રીજા સ્તર (Layer 3) પર થાય છે?",
     "options": [
       "નેટવર્ક લેયર (Network Layer)",
-      "ટ્રાન્સપોર્ટ લેયર",
-      "ડેટા લિંક લેયર",
-      "એપ્લિકેશન લેયર"
+      "ટ્રાન્સપોર્ટ લેયર (Transport Layer)",
+      "ડેટા લિંક લેયર (Data Link Layer)",
+      "એપ્લિકેશન લેયર (Application Layer)"
     ],
     "correct": 0,
     "explanation": "Network Layer પર રાઉટર કાર્ય કરે છે અને તે IP એડ્રેસના આધારે ડેટા પેકેટ્સ માટે સૌથી અનુકૂળ માર્ગ (Path) નક્કી કરે છે.",
@@ -50,36 +50,36 @@
   {
     "q": "કયા સ્તરને OSI મોડેલનું 'હૃદય' (Heart of OSI Model) કહેવામાં આવે છે, જે એન્ડ-ટુ-એન્ડ ડેટા ડિલિવરી અને પોર્ટ એડ્રેસિંગ સંભાળે છે?",
     "options": [
-      "ટ્રાન્સપોર્ટ લેયર (Transport Layer - Layer 4)",
-      "નેટવર્ક લેયર",
-      "સેશન લેયર",
-      "પ્રેઝન્ટેશન લેયર"
+      "સેશન લેયર (Session Management)",
+      "નેટવર્ક લેયર (Network Protocol)",
+      "ટ્રાન્સપોર્ટ લેયર (Transport Layer)",
+      "પ્રેઝન્ટેશન લેયર (Presentation Layer)"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Transport Layer ઉપરના સોફ્ટવેર લેયર્સ અને નીચેના હાર્ડવેર લેયર્સ વચ્ચે સેતુ તરીકે ડેટા સેગ્મેન્ટેશન અને ફ્લો કંટ્રોલ કરે છે.",
     "img": null
   },
   {
     "q": "બે કમ્પ્યુટર્સ વચ્ચે સંચાર કનેક્શન સ્થાપિત કરવા (Establish), જાળવી રાખવા (Maintain) અને સમાપ્ત કરવા (Terminate) કયું સ્તર જવાબદાર છે?",
     "options": [
-      "સેશન લેયર (Session Layer - Layer 5)",
-      "પ્રેઝન્ટેશન લેયર",
-      "ટ્રાન્સપોર્ટ લેયર",
-      "એપ્લિકેશન લેયર"
+      "એપ્લિકેશન લેયર (Application Layer)",
+      "સેશન લેયર (Session Layer System)",
+      "ટ્રાન્સપોર્ટ લેયર (Transport Layer)",
+      "પ્રેઝન્ટેશન લેયર (Presentation Layer)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Session Layer બે એપ્લિકેશનો વચ્ચે સંવાદ (Dialog Control) અને ચેકપોઇન્ટ્સ દ્વારા સેશનનું સંચાલન કરે છે.",
     "img": null
   },
   {
     "q": "ડેટાનું એન્ક્રિપ્શન/ડિક્રિપ્શન, ડેટા કમ્પ્રેશન અને ફોર્મેટ ટ્રાન્સલેશન (દા.ત. ASCII, JPEG) OSI ના કયા સ્તરે થાય છે?",
     "options": [
-      "પ્રેઝન્ટેશન લેયર (Presentation Layer - Layer 6)",
-      "એપ્લિકેશન લેયર",
-      "સેશન લેયર",
-      "નેટવર્ક લેયર"
+      "સેશન કંટ્રોલ લેયર (Session Layer)",
+      "એપ્લિકેશન લેયર (Application Layer)",
+      "નેટવર્કિંગ લેયર (Network Layer)",
+      "પ્રેઝન્ટેશન લેયર (Presentation Layer)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Presentation Layer ડેટાના વાક્યરચના (Syntax) અને અર્થશાસ્ત્ર (Semantics) તથા સુરક્ષા માટે એન્ક્રિપ્શન સંભાળે છે.",
     "img": null
   },
@@ -87,9 +87,9 @@
     "q": "વપરાશકર્તા (User) અને સોફ્ટવેર એપ્લિકેશન સાથે સીધો સંવાદ સાધતું OSI મોડેલનું સર્વોચ્ચ સ્તર (Layer 7) કયું છે?",
     "options": [
       "એપ્લિકેશન લેયર (Application Layer)",
-      "પ્રેઝન્ટેશન લેયર",
-      "ટ્રાન્સપોર્ટ લેયર",
-      "ફિઝિકલ લેયર"
+      "પ્રેઝન્ટેશન લેયર (Presentation Layer)",
+      "ફિઝિકલ ડેટા લેયર (Physical Layer)",
+      "ટ્રાન્સપોર્ટ લેયર (Transport Layer)"
     ],
     "correct": 0,
     "explanation": "Application Layer વેબ બ્રાઉઝર કે ઈમેલ ક્લાયન્ટ જેવા યુઝર ઇન્ટરફેસ પ્રોગ્રામ્સને નેટવર્ક સેવાઓ (HTTP, SMTP, FTP) પૂરી પાડે છે.",
@@ -98,34 +98,34 @@
   {
     "q": "કનેક્શન-ઓરિએન્ટેડ અને વિશ્વસનીય (Reliable) ડેટા ટ્રાન્સફર આપતા પ્રોટોકોલ TCP નું પૂરું નામ શું છે?",
     "options": [
+      "Terminal Control Provider System",
+      "Telecom Connection Path Network",
       "Transmission Control Protocol",
-      "Transfer Communication Protocol",
-      "Terminal Control Provider",
-      "Telecom Connection Path"
+      "Transfer Communication Protocol"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "TCP ડેટા પહોંચવાની સંપૂર્ણ ખાતરી (Acknowledgment) આપે છે અને ભૂલ હોય તો ડેટા ફરીથી મોકલે છે.",
     "img": null
   },
   {
     "q": "ઓનલાઈન વિડિયો સ્ટ્રીમિંગ અને ગેમિંગ માટે વપરાતો ઝડપી પરંતુ કનેક્શન-લેસ (Connectionless) પ્રોટોકોલ કયો છે?",
     "options": [
+      "TCP (Transmission Protocol)",
       "UDP (User Datagram Protocol)",
-      "TCP",
-      "FTP",
-      "SMTP"
+      "FTP (File Transfer Protocol)",
+      "SMTP (Simple Mail Protocol)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "UDP માં સ્વીકૃતિ (ACK) ની રાહ જોયા વિના સીધો ડેટા વહે છે, જેથી વિલંબ ઓછો થાય છે પરંતુ પેકેટ લોસની શક્યતા રહે છે.",
     "img": null
   },
   {
     "q": "વેબ બ્રાઉઝર અને વેબ સર્વર વચ્ચે એન્ક્રિપ્ટેડ અને સુરક્ષિત ડેટા સંચાર માટે વપરાતા 'HTTPS' માં 'S' નો અર્થ શું થાય છે?",
     "options": [
-      "Secure (સિક્યોર)",
-      "Standard",
-      "System",
-      "Server"
+      "Secure (સિક્યોર કનેક્શન પ્રોટોકોલ)",
+      "Standard (સ્ટાન્ડર્ડ ડેટા ફોર્મેટ)",
+      "System (સિસ્ટમ ઓરિએન્ટેડ પ્રોસેસ)",
+      "Server (સર્વર આધારિત એન્ક્રિપ્શન)"
     ],
     "correct": 0,
     "explanation": "HTTPS એટલે Hypertext Transfer Protocol Secure, જે SSL/TLS સર્ટિફિકેટ દ્વારા ડેટાને એન્ક્રિપ્ટ કરે છે.",
@@ -134,46 +134,46 @@
   {
     "q": "ઇન્ટરનેટ પર વેબસાઇટ્સ બ્રાઉઝ કરવા માટે વપરાતો અસુરક્ષિત HTTP પ્રોટોકોલ ડિફોલ્ટ કયા પોર્ટ નંબર પર કાર્ય કરે છે?",
     "options": [
-      "પોર્ટ 80 (Port 80)",
-      "પોર્ટ 443",
-      "પોર્ટ 21",
-      "પોર્ટ 25"
+      "પોર્ટ 443 (Port 443 - Secure Web)",
+      "પોર્ટ 25 (Port 25 - Mail Transfer)",
+      "પોર્ટ 21 (Port 21 - File Transfer)",
+      "પોર્ટ 80 (Port 80 - Default HTTP)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "HTTP પોર્ટ 80 વાપરે છે, જ્યારે સુરક્ષિત HTTPS પોર્ટ 443 નો ઉપયોગ કરે છે.",
     "img": null
   },
   {
     "q": "ઇન્ટરનેટ પર એક કમ્પ્યુટર પરથી બીજા કમ્પ્યુટર પર ફાઇલો અપલોડ કે ડાઉનલોડ કરવા માટે કયો પ્રોટોકોલ વપરાય છે?",
     "options": [
+      "HTTP (Hypertext Web Protocol)",
       "FTP (File Transfer Protocol)",
-      "HTTP",
-      "SMTP",
-      "SNMP"
+      "SMTP (Simple Mail Protocol)",
+      "SNMP (Simple Network Protocol)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "FTP (પોર્ટ 20 અને 21) ક્લાયન્ટ અને સર્વર વચ્ચે મોટી ફાઇલોની આપ-લે કરવા માટે રચાયેલ પ્રમાણભૂત પ્રોટોકોલ છે.",
     "img": null
   },
   {
     "q": "ઇન્ટરનેટ પર ઈ-મેઇલ સંદેશાઓ મોકલવા (Send Mail) માટે ક્લાયન્ટ દ્વારા કયો પ્રોટોકોલ વાપરવામાં આવે છે?",
     "options": [
+      "IMAP (Internet Message Access Protocol)",
+      "POP3 (Post Office Protocol Version 3)",
       "SMTP (Simple Mail Transfer Protocol)",
-      "POP3",
-      "IMAP",
-      "HTTP"
+      "HTTP (Hypertext Transfer Web Protocol)"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "SMTP (પોર્ટ 25) નો ઉપયોગ ઈમેલ મોકલવા અને સર્વર્સ વચ્ચે મેઈલ ટ્રાન્સફર કરવા થાય છે.",
     "img": null
   },
   {
     "q": "ઈ-મેઇલ સર્વર પરથી મેસેજ ડાઉનલોડ કરીને સ્થાનિક ઉપકરણમાં સ્ટોર કરતા પ્રોટોકોલ 'POP3' માં 'POP' નું પૂરું નામ શું છે?",
     "options": [
-      "Post Office Protocol",
-      "Point of Presence",
-      "Packet Origin Protocol",
-      "Personal Online Post"
+      "Post Office Protocol Version 3",
+      "Packet Origin Protocol Standard",
+      "Point of Presence Protocol Node",
+      "Personal Online Post Processing"
     ],
     "correct": 0,
     "explanation": "POP3 (પોર્ટ 110) મેઇલબોક્સમાંથી ઈમેઇલ સ્થાનિક પીસી પર ડાઉનલોડ કરે છે અને સામાન્ય રીતે સર્વર પરથી ડિલીટ કરી નાખે છે.",
@@ -182,34 +182,34 @@
   {
     "q": "એકસાથે મલ્ટિપલ ડિવાઇસિસ (મોબાઇલ, લેપટોપ) માં ઈ-મેઇલને સર્વર સાથે રીઅલ-ટાઇમ સિંક્રનાઇઝ રાખવા માટે કયો પ્રોટોકોલ શ્રેષ્ઠ છે?",
     "options": [
-      "IMAP (Internet Message Access Protocol)",
-      "POP3",
-      "SMTP",
-      "FTP"
+      "FTP (File Transfer Protocol Standard)",
+      "SMTP (Simple Mail Transfer Protocol)",
+      "POP3 (Post Office Protocol Version 3)",
+      "IMAP (Internet Message Access Protocol)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "IMAP (પોર્ટ 143) ઈમેલ્સને સર્વર પર જ રાખે છે જેથી તમામ ડિવાઇસિસમાં ઈનબોક્સ અને ફોલ્ડર્સ હંમેશા સિંક રહે છે.",
     "img": null
   },
   {
     "q": "યૂઝર-ફ્રેન્ડલી વેબસાઇટ નામ (દા.ત. google.com) ને મશીન સમજી શકે તેવા આંકડાકીય IP એડ્રેસમાં રૂપાંતરિત કરતી સિસ્ટમને શું કહે છે?",
     "options": [
-      "DNS (Domain Name System)",
-      "DHCP",
-      "ARP",
-      "NAT"
+      "NAT (Network Address Translation)",
+      "ARP (Address Resolution Protocol)",
+      "DNS (Domain Name System Server)",
+      "DHCP (Dynamic Host Config Protocol)"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "DNS (પોર્ટ 53) ઇન્ટરનેટની ફોનબુક તરીકે કાર્ય કરે છે, જે ડોમેન નામોને સંબંધિત IP એડ્રેસમાં ફેરવે છે.",
     "img": null
   },
   {
     "q": "નેટવર્કમાં જોડાયેલા તમામ નવા કમ્પ્યુટર્સ કે ઉપકરણોને આપોઆપ (Dynamic) IP એડ્રેસ ફાળવવાનું કાર્ય કોણ કરે છે?",
     "options": [
-      "DHCP (Dynamic Host Configuration Protocol)",
-      "DNS",
-      "ARP",
-      "SNMP"
+      "DHCP (Dynamic Host Configuration)",
+      "SNMP (Simple Network Management)",
+      "DNS (Domain Name System Server)",
+      "ARP (Address Resolution Protocol)"
     ],
     "correct": 0,
     "explanation": "DHCP સર્વર નેટવર્કના દરેક નોડને મેન્યુઅલ સેટિંગ વગર ઓટોમેટિક IP એડ્રેસ, સબનેટ માસ્ક અને ગેટવે ફાળવે છે.",
@@ -218,36 +218,36 @@
   {
     "q": "જાણીતા લોજિકલ IP એડ્રેસ પરથી સ્થાનિક નેટવર્કના હાર્ડવેર ભૌતિક સરનામા (MAC એડ્રેસ) ની શોધ કરતો પ્રોટોકોલ કયો છે?",
     "options": [
+      "RARP (Reverse Address Resolution)",
       "ARP (Address Resolution Protocol)",
-      "RARP",
-      "ICMP",
-      "IGMP"
+      "IGMP (Internet Group Management)",
+      "ICMP (Internet Control Message)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "ARP બ્રોડકાસ્ટ ક્વેરી મોકલીને ચોક્કસ IP એડ્રેસ ધરાવતા મશીનનું 48-બિટ MAC એડ્રેસ મેળવે છે.",
     "img": null
   },
   {
     "q": "નેટવર્ક કનેક્ટિવિટી અને રીચેબિલિટી ચકાસવા માટે વપરાતી 'ping' કમાન્ડ કયા નેટવર્ક પ્રોટોકોલ પર કાર્ય કરે છે?",
     "options": [
-      "ICMP (Internet Control Message Protocol)",
-      "TCP",
-      "UDP",
-      "SNMP"
+      "SNMP (Simple Network Management System)",
+      "TCP (Transmission Control Data Protocol)",
+      "UDP (User Datagram Connection Protocol)",
+      "ICMP (Internet Control Message Protocol)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "ICMP નો ઉપયોગ એકો રિક્વેસ્ટ (Echo Request) અને એકો રિપ્લાય મોકલીને નેટવર્કના સ્ટેટસ તથા એરર મેસેજ જાણવા થાય છે.",
     "img": null
   },
   {
     "q": "રિમોટ કમ્પ્યુટર પર સુરક્ષિત અને એન્ક્રિપ્ટેડ કમાન્ડ-લાઇન લોગિન કરવા માટે કયો પ્રોટોકોલ વપરાય છે?",
     "options": [
+      "Telnet (TCP Protocol - Port 23)",
+      "TFTP (Trivial FTP - Port 69)",
       "SSH (Secure Shell - Port 22)",
-      "Telnet (Port 23)",
-      "FTP (Port 21)",
-      "TFTP (Port 69)"
+      "FTP (File Transfer - Port 21)"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "SSH પોર્ટ 22 પર તમામ ટ્રાફિકને એન્ક્રિપ્ટ કરે છે, જ્યારે પરંપરાગત Telnet પ્લેન ટેક્સ્ટમાં પાસવર્ડ મોકલતું હોવાથી અસુરક્ષિત હતું.",
     "img": null
   },
@@ -255,9 +255,9 @@
     "q": "રાઉટર, સ્વિચ અને પ્રિન્ટર જેવા નેટવર્કિંગ ડિવાઇસિસનું સેન્ટ્રલ મોનિટરિંગ અને કન્ફિગરેશન કરવા કયો પ્રોટોકોલ વપરાય છે?",
     "options": [
       "SNMP (Simple Network Management Protocol)",
-      "SMTP",
-      "NTP",
-      "LDAP"
+      "SMTP (Simple Mail Transfer Mail Protocol)",
+      "LDAP (Lightweight Directory Access Protocol)",
+      "NTP (Network Time Synchronization Protocol)"
     ],
     "correct": 0,
     "explanation": "SNMP (પોર્ટ 161) નેટવર્ક એડમિનિસ્ટ્રેટરને સાધનોનું પર્ફોર્મન્સ ટ્રેક કરવા અને ખામીઓ શોધવામાં મદદ કરે છે.",
@@ -266,38 +266,37 @@
   {
     "q": "ઇન્ટરનેટ પર પરંપરાગત ટેલિફોન નેટવર્કને બદલે ડેટા પેકેટ્સ મારફતે અવાજ (વોઇસ કોલિંગ) મોકલવાની ટેકનોલોજી કઈ છે?",
     "options": [
+      "ISDN (Integrated Services Digital Net)",
       "VoIP (Voice over Internet Protocol)",
-      "VoLTE",
-      "PSTN",
-      "ISDN"
+      "PSTN (Public Switched Telephone Net)",
+      "VoLTE (Voice over Long-Term Evolution)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "VoIP (દા.ત. WhatsApp કોલિંગ, Skype) અવાજના એનાલોગ સિગ્નલને ડિજિટલ પેકેટ્સમાં ફેરવી ઈન્ટરનેટ દ્વારા મોકલે છે.",
     "img": null
   },
   {
     "q": "TCP પ્રોટોકોલમાં ક્લાયન્ટ અને સર્વર વચ્ચે કનેક્શન સ્થાપિત કરવા વપરાતી પ્રક્રિયાને શું કહે છે?",
     "options": [
-      "3-Way Handshake (SYN → SYN-ACK → ACK)",
-      "2-Way Authentication",
-      "Token Passing",
-      "CSMA/CD"
+      "Token Passing Method (Ring Topology Net)",
+      "CSMA/CD (Carrier Sense Collision Detect)",
+      "2-Way Authentication (Request → Verify)",
+      "3-Way Handshake (SYN → SYN-ACK → ACK)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "TCP કનેક્શન શરૂ કરતાં પહેલાં SYN (Synchronize), SYN-ACK અને ACK (Acknowledge) એમ ત્રણ તબક્કાની હેન્ડશેક પ્રક્રિયા કરે છે.",
     "img": null
   },
   {
     "q": "ઇન્ટરનેટ પર જોડાયેલા તમામ કમ્પ્યુટર્સની આંતરિક ઘડિયાળો (System Clocks) ને એક ચોક્કસ ટાઇમ સર્વર સાથે સિંક કરતો પ્રોટોકોલ કયો છે?",
     "options": [
-      "NTP (Network Time Protocol)",
-      "NNTP",
-      "SNMP",
-      "RIP"
+      "NTP (Network Time Synchronization Protocol)",
+      "SNMP (Simple Network Management Protocol)",
+      "RIP (Routing Information System Protocol)",
+      "NNTP (Network News Transfer Net Protocol)"
     ],
     "correct": 0,
     "explanation": "NTP (પોર્ટ 123) નેટવર્ક પરના તમામ ઉપકરણો વચ્ચે મિલિસેકન્ડની ચોકસાઈ સાથે સમયનું સિંક્રનાઇઝેશન જાળવે છે.",
     "img": null
   }
 ]
-
