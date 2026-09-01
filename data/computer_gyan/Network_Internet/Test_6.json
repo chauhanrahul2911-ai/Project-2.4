@@ -1,1 +1,303 @@
+[
+  {
+    "q": "વાયરલેસ લોકલ એરિયા નેટવર્ક માટે જાણીતા 'Wi-Fi' નું વિસ્તૃત રૂપ શું થાય છે?",
+    "options": [
+      "Wireless Fidelity",
+      "Wireless Fiber",
+      "Wide Frequency Internet",
+      "Wireless Finder"
+    ],
+    "correct": 0,
+    "explanation": "Wi-Fi એટલે Wireless Fidelity, જે રેડિયો તરંગો દ્વારા ડિવાઇસિસ વચ્ચે વાયરલેસ કનેક્ટિવિટી પૂરી પાડે છે.",
+    "img": null
+  },
+  {
+    "q": "Wi-Fi ટેકનોલોજીનું સંચાલન અને પ્રમાણીકરણ કયા આંતરરાષ્ટ્રીય IEEE સ્ટાન્ડર્ડ હેઠળ થાય છે?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.15",
+      "IEEE 802.16"
+    ],
+    "correct": 0,
+    "explanation": "IEEE 802.11 એ વાયરલેસ લેન (Wi-Fi) માટેનું વૈશ્વિક સ્ટાન્ડર્ડ છે (જ્યારે 802.3 ઇથરનેટ માટે અને 802.15 બ્લૂટૂથ માટે છે).",
+    "img": null
+  },
+  {
+    "q": "LED બલ્બમાંથી નીકળતા દ્રશ્ય પ્રકાશ (Visible Light) ના માધ્યમથી અતિ ઝડપી ડેટા ટ્રાન્સફર કરતી ટેકનોલોજીને શું કહે છે?",
+    "options": [
+      "Li-Fi (Light Fidelity)",
+      "Wi-Fi",
+      "WiMAX",
+      "LaserNet"
+    ],
+    "correct": 0,
+    "explanation": "Li-Fi (Light Fidelity) એ Visible Light Communication (VLC) ટેકનોલોજી છે જે LED લાઇટ ફ્લિકરિંગ દ્વારા હાઇ-સ્પીડ ડેટા ટ્રાન્સમિટ કરે છે.",
+    "img": null
+  },
+  {
+    "q": "Li-Fi ટેકનોલોજીનો સૌપ્રથમ વિચાર અને ડેમો વર્ષ 2011 માં કયા વૈજ્ઞાનિક/પ્રોફેસર દ્વારા રજૂ કરવામાં આવ્યો હતો?",
+    "options": [
+      "પ્રોફેસર હેરાલ્ડ હાસ (Harald Haas)",
+      "વિન્ટ સર્ફ",
+      "ટિમ બર્નર્સ-લી",
+      "માર્ટિન કૂપર"
+    ],
+    "correct": 0,
+    "explanation": "યુનિવર્સિટી ઓફ એડિનબર્ગના પ્રોફેસર હેરાલ્ડ હાસે TED ટોકમાં સૌપ્રથમ વખત Li-Fi નો સિદ્ધાંત અને કાર્યપદ્ધતિ રજૂ કરી હતી.",
+    "img": null
+  },
+  {
+    "q": "લાંબા અંતર (લગભગ 50 થી 90 કિમી) સુધી વાયરલેસ બ્રોડબેન્ડ ઇન્ટરનેટ પૂરું પાડતી 'WiMAX' ટેકનોલોજી કયા IEEE સ્ટાન્ડર્ડ પર આધારિત છે?",
+    "options": [
+      "IEEE 802.16",
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.15"
+    ],
+    "correct": 0,
+    "explanation": "WiMAX (Worldwide Interoperability for Microwave Access) નું સ્ટાન્ડર્ડ IEEE 802.16 છે જે મેટ્રોપોલિટન વાયરલેસ બ્રોડબેન્ડ આપે છે.",
+    "img": null
+  },
+  {
+    "q": "WiMAX નું પૂર્ણ સ્વરૂપ નીચે પૈકી કયું છે?",
+    "options": [
+      "Worldwide Interoperability for Microwave Access",
+      "Wireless Internet Metropolitan Access Xchange",
+      "Wide Microwave Access Network",
+      "World Integrated Mobile Access Xcellence"
+    ],
+    "correct": 0,
+    "explanation": "WiMAX એટલે Worldwide Interoperability for Microwave Access.",
+    "img": null
+  },
+  {
+    "q": "દૂરદૂરના ગ્રામીણ વિસ્તારો અને બેંક ATM માં વાયરલેસ સેટેલાઇટ કનેક્ટિવિટી માટે વપરાતી નાની એન્ટેના ડિશ સિસ્ટમને શું કહે છે?",
+    "options": [
+      "VSAT (Very Small Aperture Terminal)",
+      "Set-top Box",
+      "Wi-Fi Dongle",
+      "Optical Node"
+    ],
+    "correct": 0,
+    "explanation": "VSAT (Very Small Aperture Terminal) એ ભૂસ્થિર ઉપગ્રહ સાથે સીધો સંપર્ક ધરાવતું નાનું સેટેલાઇટ અર્થ સ્ટેશન છે.",
+    "img": null
+  },
+  {
+    "q": "એલોન મસ્કની કંપની સ્પેસએક્સ (SpaceX) દ્વારા પૃથ્વીની નીચલી ભ્રમણકક્ષા (LEO) માં હજારો ઉપગ્રહો સ્થાપીને અપાતી સેટેલાઇટ ઇન્ટરનેટ સેવાનું નામ શું છે?",
+    "options": [
+      "સ્ટારલિન્ક (Starlink)",
+      "વનવેબ",
+      "પ્રોજેક્ટ કુઇપર",
+      "સ્કાયનેટ"
+    ],
+    "correct": 0,
+    "explanation": "Starlink એ SpaceX નો LEO સેટેલાઇટ કોન્સ્ટેલેશન પ્રોજેક્ટ છે જે વિશ્વભરમાં લો-લેટન્સી સેટેલાઇટ બ્રોડબેન્ડ પૂરું પાડે છે.",
+    "img": null
+  },
+  {
+    "q": "ભારતની ભારતી એરટેલ (Bharti Group) અને યુકે સરકારના સંયુક્ત સાહસ દ્વારા સંચાલિત સેટેલાઇટ ઇન્ટરનેટ નેટવર્ક કયું છે?",
+    "options": [
+      "વનવેબ (OneWeb / Eutelsat OneWeb)",
+      "સ્ટારલિન્ક",
+      "જિયો સ્પેસ ફાઇબર",
+      "ઇનમારસેટ"
+    ],
+    "correct": 0,
+    "explanation": "OneWeb પૃથ્વીની નીચલી ભ્રમણકક્ષાના ઉપગ્રહો દ્વારા વૈશ્વિક બ્રોડબેન્ડ કનેક્ટિવિટી આપે છે, જેમાં ભારતી ગ્રૂપ મોટો હિસ્સેદાર છે.",
+    "img": null
+  },
+  {
+    "q": "દુર્ગમ અને પછાત વિસ્તારોમાં હાઇ-ઓલ્ટિટ્યુડ હિલિયમ બલૂન્સ (Balloons) ઉડાડીને ઇન્ટરનેટ પહોંચાડવા ગૂગલ દ્વારા કયો પ્રોજેક્ટ શરૂ કરાયો હતો?",
+    "options": [
+      "પ્રોજેક્ટ લૂન (Project Loon)",
+      "પ્રોજેક્ટ તારા",
+      "પ્રોજેક્ટ એક્વિલા",
+      "પ્રોજેક્ટ વિંગ"
+    ],
+    "correct": 0,
+    "explanation": "ગૂગલ (Alphabet X) દ્વારા વર્ષ 2013 માં સમતાપ મંડળ (Stratosphere) માં બલૂન્સ તૈનાત કરીને ગ્રામીણ કનેક્ટિવિટી આપવા Project Loon શરૂ થયો હતો.",
+    "img": null
+  },
+  {
+    "q": "પ્રથમ પેઢીની (1G) મોબાઇલ સંચાર પ્રણાલીની મુખ્ય લાક્ષણિકતા કઈ હતી?",
+    "options": [
+      "તે સંપૂર્ણપણે એનાલોગ સિગ્નલ અને માત્ર વોઇસ કોલિંગ પર આધારિત હતી",
+      "તેમાં 4G જેવો ડેટા મળતો હતો",
+      "તે ડિજિટલ એન્ક્રિપ્ટેડ હતી",
+      "તેમાં વિડિયો કોલિંગ શક્ય હતું"
+    ],
+    "correct": 0,
+    "explanation": "1G (First Generation) નેટવર્ક સંપૂર્ણ એનાલોગ હતું અને તેમાં ડેટા કે SMS ની કોઈ સુવિધા નહોતી, માત્ર અવાજ પહોંચતો હતો.",
+    "img": null
+  },
+  {
+    "q": "બીજી પેઢીના (2G) મોબાઇલ નેટવર્કમાં સૌપ્રથમ વખત ડિજિટલ સંચાર સાથે કઈ નવી સુવિધા શરૂ થઈ હતી?",
+    "options": [
+      "SMS (Short Message Service) અને MMS",
+      "HD વિડિયો સ્ટ્રીમિંગ",
+      "VoLTE કોલિંગ",
+      "ઓનલાઇન 3D ગેમિંગ"
+    ],
+    "correct": 0,
+    "explanation": "2G (GSM/CDMA) માં ડિજિટલ વોઇસ ટ્રાન્સમિશન સાથે ટેક્સ્ટ મેસેજિંગ (SMS) અને બેઝિક ડેટા (GPRS) ની શરૂઆત થઈ.",
+    "img": null
+  },
+  {
+    "q": "મોબાઇલ ટેલિકોમમાં વપરાતા 'SIM' કાર્ડનું વિસ્તૃત પૂર્ણ નામ શું છે?",
+    "options": [
+      "Subscriber Identity Module",
+      "System Information Module",
+      "Single Integrated Memory",
+      "Standard Interface Mode"
+    ],
+    "correct": 0,
+    "explanation": "SIM એટલે Subscriber Identity Module, જે ગ્રાહકની ઓળખ અને નેટવર્ક કી સાચવતી સ્માર્ટ ચિપ છે.",
+    "img": null
+  },
+  {
+    "q": "2G નેટવર્કમાં ઇન્ટરનેટ ડેટા પેકેટ્સ મોકલવા માટે ઉમેરાયેલી ટેકનોલોજી 'GPRS' નું પૂરું નામ શું છે?",
+    "options": [
+      "General Packet Radio Service",
+      "Global Position Radio System",
+      "General Phone Routing System",
+      "Global Packet Routing Standard"
+    ],
+    "correct": 0,
+    "explanation": "GPRS (General Packet Radio Service - જેને 2.5G પણ કહેવાય છે) સેલ્યુલર નેટવર્ક પર પેકેટ-આધારિત ડેટા સેવા લાવ્યું હતું.",
+    "img": null
+  },
+  {
+    "q": "3G નેટવર્કની રજૂઆત સાથે મોબાઇલ ફોનમાં કઈ મુખ્ય ક્રાંતિ આવી?",
+    "options": [
+      "હાઇ-સ્પીડ મોબાઇલ ઇન્ટરનેટ અને મોબાઇલ વેબ બ્રાઉઝિંગ/વિડિયો કોલિંગની શરૂઆત",
+      "ફક્ત SMS મોકલી શકાતા",
+      "એનાલોગ સિગ્નલ બંધ થયા",
+      "સેટેલાઇટ વગર કોલ ન થઈ શકતા"
+    ],
+    "correct": 0,
+    "explanation": "3G (UMTS/WCDMA) એ સ્માર્ટફોન યુગનો પાયો નાખ્યો અને વિડિયો કોલિંગ તથા મોબાઇલ બ્રોડબેન્ડ શક્ય બનાવ્યું.",
+    "img": null
+  },
+  {
+    "q": "4G નેટવર્કમાં હાઇ-સ્પીડ ડેટા માટે વપરાતા 'LTE' શબ્દનું વિસ્તૃત રૂપ શું થાય છે?",
+    "options": [
+      "Long Term Evolution",
+      "Local Telecom Exchange",
+      "Light Transmission Engine",
+      "Logical Telecom Entity"
+    ],
+    "correct": 0,
+    "explanation": "LTE એટલે Long Term Evolution, જે 4G વાયરલેસ બ્રોડબેન્ડ ડેટા માટેનું વૈશ્વિક સ્ટાન્ડર્ડ છે.",
+    "img": null
+  },
+  {
+    "q": "4G નેટવર્ક પર સામાન્ય કૉલિંગના બદલે અલ્ટ્રા ક્લિયર HD વોઇસ કોલિંગ આપતી ટેકનોલોજી 'VoLTE' નું પૂરું નામ શું છે?",
+    "options": [
+      "Voice over Long Term Evolution",
+      "Visual online LTE",
+      "Voice on Local Terminal",
+      "Variable optimized LTE"
+    ],
+    "correct": 0,
+    "explanation": "VoLTE (Voice over Long Term Evolution) 4G ડેટા નેટવર્ક પર જ અવાજને IP પેકેટ્સ તરીકે ટ્રાન્સમિટ કરે છે.",
+    "img": null
+  },
+  {
+    "q": "5G નેટવર્કની મુખ્ય વિશેષતાઓમાં લેટન્સી (Latency) આશરે કેટલી અલ્ટ્રા-લો થઈ જાય છે?",
+    "options": [
+      "1 મિલિસેકન્ડ (1 ms) જેટલી નહિવત",
+      "100 મિલિસેકન્ડ",
+      "1 સેકન્ડ",
+      "10 મિનિટ"
+    ],
+    "correct": 0,
+    "explanation": "5G નેટવર્ક 1 ms જેટલી અલ્ટ્રા-લો લેટન્સી આપે છે, જે સેલ્ફ-ડ્રાઇવિંગ કાર અને રિમોટ રોબોટિક સર્જરી માટે અનિવાર્ય છે.",
+    "img": null
+  },
+  {
+    "q": "ઇન્ટરનેટ ઓફ થિંગ્સ (IoT) માં અબજો સ્માર્ટ ડિવાઇસિસને નેટવર્ક સાથે જોડવા કઈ પેઢીનું સેલ્યુલર નેટવર્ક મુખ્ય ચાલક બળ છે?",
+    "options": [
+      "5G નેટવર્ક",
+      "2G નેટવર્ક",
+      "3G નેટવર્ક",
+      "ડાયલ-અપ"
+    ],
+    "correct": 0,
+    "explanation": "5G ની વિશાળ કનેક્ટિવિટી ક્ષમતા (Massive Machine Type Communication) સ્માર્ટ સિટી અને સ્માર્ટ હોમ ડિવાઇસિસને જોડે છે.",
+    "img": null
+  },
+  {
+    "q": "ઇન-ફ્લાઇટ વાઇ-ફાઇ (In-flight Wi-Fi) સુવિધા વિમાનમાં મુસાફરી દરમિયાન મુસાફરોને ઇન્ટરનેટ કઈ બે સિસ્ટમ દ્વારા પહોંચાડે છે?",
+    "options": [
+      "એર-ટુ-ગ્રાઉન્ડ (ATG) સિસ્ટમ અને સેટેલાઇટ આધારિત સિસ્ટમ",
+      "માત્ર અંડરવોટર કેબલ",
+      "માત્ર બ્લૂટૂથ",
+      "FM રેડિયો લિંક"
+    ],
+    "correct": 0,
+    "explanation": "હવાઈ મુસાફરી દરમિયાન વિમાન જમીન પરના ટાવર્સ (ATG) અથવા ઉપર રહેલા સેટેલાઇટ એન્ટેના દ્વારા સિગ્નલ મેળવી વિમાનમાં વાઇફાઇ આપે છે.",
+    "img": null
+  },
+  {
+    "q": "Wi-Fi ની નવીનતમ પેઢી 'Wi-Fi 7' કયા IEEE સ્ટાન્ડર્ડ હેઠળ અલ્ટ્રા-હાઇ સ્પીડ મલ્ટી-ગીગાબીટ ડેટા રેટ આપે છે?",
+    "options": [
+      "IEEE 802.11be",
+      "IEEE 802.11ax (Wi-Fi 6)",
+      "IEEE 802.11ac (Wi-Fi 5)",
+      "IEEE 802.11n (Wi-Fi 4)"
+    ],
+    "correct": 0,
+    "explanation": "Wi-Fi 7 ને IEEE 802.11be (Extremely High Throughput) તરીકે ઓળખવામાં આવે છે, જે 320 MHz ચેનલ્સ અને 40+ Gbps સ્પીડ આપે છે.",
+    "img": null
+  },
+  {
+    "q": "મોબાઇલ હેન્ડસેટની અનન્ય વૈશ્વિક ઓળખ આપતા 15 અંકના હાર્ડવેર નંબરને શું કહે છે?",
+    "options": [
+      "IMEI (International Mobile Equipment Identity)",
+      "IMSI નંબર",
+      "MAC એડ્રેસ",
+      "IP એડ્રેસ"
+    ],
+    "correct": 0,
+    "explanation": "IMEI (International Mobile Equipment Identity) દરેક મોબાઇલ ફોન હાર્ડવેરનો યુનિક 15 અંકનો કોડ છે જે ચોરી વખતે ટ્રેકિંગમાં વપરાય છે.",
+    "img": null
+  },
+  {
+    "q": "SIM કાર્ડની અંદર રહેલા 15 અંકના અનન્ય સબસ્ક્રાઇબર ઓળખ નંબરને શું કહે છે?",
+    "options": [
+      "IMSI (International Mobile Subscriber Identity)",
+      "IMEI",
+      "ICCID",
+      "PIN કોડ"
+    ],
+    "correct": 0,
+    "explanation": "IMSI એ સેલ્યુલર નેટવર્ક પર સબસ્ક્રાઇબરની ઓળખ માટે સિમ કાર્ડમાં સંગ્રહિત વિશિષ્ટ નંબર છે.",
+    "img": null
+  },
+  {
+    "q": "Wi-Fi નેટવર્કની સુરક્ષા માટે હાલમાં વપરાતો સૌથી આધુનિક અને મજબૂત સિક્યોરિટી એન્ક્રિપ્શન પ્રોટોકોલ કયો છે?",
+    "options": [
+      "WPA3 (Wi-Fi Protected Access 3)",
+      "WEP (Wired Equivalent Privacy)",
+      "WPA",
+      "WPA2"
+    ],
+    "correct": 0,
+    "explanation": "WPA3 એ વાઇફાઇ સુરક્ષાનું લેટેસ્ટ વર્ઝન છે જે પબ્લિક નેટવર્ક પર પણ અત્યાધુનિક 192-બિટ એન્ક્રિપ્શન પૂરું પાડે છે.",
+    "img": null
+  },
+  {
+    "q": "સ્માર્ટફોનમાં પોતાના મોબાઇલ ઇન્ટરનેટ ડેટાને અન્ય નજીકના ઉપકરણો સાથે વાઇફાઇ દ્વારા શેર કરવાની સુવિધાને શું કહે છે?",
+    "options": [
+      "મોબાઇલ હોટસ્પોટ / ટેથરિંગ (Wi-Fi Hotspot)",
+      "સ્ક્રીન મિરરિંગ",
+      "એરડ્રોપ",
+      "એનએફસી પે"
+    ],
+    "correct": 0,
+    "explanation": "Wi-Fi Hotspot / Tethering ફીચર સ્માર્ટફોનને એક પોર્ટેબલ વાઇફાઇ રાઉટરમાં ફેરવી દે છે.",
+    "img": null
+  }
+]
 
