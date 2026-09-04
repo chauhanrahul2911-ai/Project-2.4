@@ -2,132 +2,132 @@
   {
     "q": "કમ્પ્યુટર ચાલુ હોય ત્યારે ડેટાનો હંગામી સંગ્રહ કરતી અને વીજળી જતાં ડેટા ગુમાવતી 'વોલેટાઇલ' (Volatile) મેમરી કઈ છે?",
     "options": [
-      "RAM (Random Access Memory)",
-      "ROM (Read Only Memory)",
-      "હાર્ડ ડિસ્ક",
-      "પેન ડ્રાઇવ"
+      "ROM (રીડ ઓન્લી પરમેનન્ટ મેમરી)",
+      "RAM (રેન્ડમ એક્સેસ વોલેટાઇલ મેમરી)",
+      "હાર્ડ ડિસ્ક ડ્રાઇવ (મેગ્નેટિક સ્ટોરેજ)",
+      "પેન ડ્રાઇવ સ્ટોરેજ (યુએસબી ફ્લેશ ડ્રાઇવ)"
     ],
-    "correct": 0,
-    "explanation": "RAM એ કામચલાઉ (Temporary / Volatile) મેમરી છે, જેમાં વીજ પ્રવાહ બંધ થતાં જ બધો ડેટા ભૂંસાઈ જાય છે[span_0](start_span)[span_0](end_span).",
+    "correct": 1,
+    "explanation": "RAM એ કામચલાઉ (Temporary / Volatile) મેમરી છે, જેમાં વીજ પ્રવાહ બંધ થતાં જ બધો ડેટા ભૂંસાઈ જાય છે.",
     "img": null
   },
   {
     "q": "કમ્પ્યુટર સ્વિચ ઓફ હોય તો પણ ડેટા કાયમી જાળવી રાખતી 'નોન-વોલેટાઇલ' (Non-Volatile) પ્રાઇમરી મેમરી કઈ છે?",
     "options": [
-      "ROM (Read Only Memory)",
-      "RAM",
-      "કેશ મેમરી",
-      "રજિસ્ટર"
+      "RAM (કામચલાઉ અસ્થાયી મેમરી)",
+      "કેશ મેમરી (હાઇ-સ્પીડ બફર)",
+      "ROM (રીડ ઓન્લી પરમેનન્ટ મેમરી)",
+      "પ્રોસેસર રજિસ્ટર (ઇન્ટરનલ સ્ટોરેજ)"
     ],
-    "correct": 0,
-    "explanation": "ROM માં સંગ્રહિત પ્રોગ્રામ્સ કાયમી (Permanent / Non-Volatile) હોય છે અને તેને માત્ર વાંચી શકાય છે[span_1](start_span)[span_1](end_span).",
+    "correct": 2,
+    "explanation": "ROM માં સંગ્રહિત પ્રોગ્રામ્સ કાયમી (Permanent / Non-Volatile) હોય છે અને તેને માત્ર વાંચી શકાય છે.",
     "img": null
   },
   {
     "q": "RAM માં કઈ પદ્ધતિ હેઠળ સૌથી પહેલાં આવેલો ડેટા સૌથી પહેલાં પ્રોસેસ થઈને બહાર નીકળે છે?",
     "options": [
-      "FIFO (First In First Out)",
       "LIFO (Last In First Out)",
-      "Round Robin",
-      "Random Fetch"
+      "Round Robin (ટાઇમ શેરિંગ)",
+      "Random Fetch (રેન્ડમ ડેટા)",
+      "FIFO (First In First Out)"
     ],
-    "correct": 0,
-    "explanation": "RAM માં પ્રથમ દાખલ થયેલ ડેટા પ્રથમ બહાર નીકળે તેને FIFO (First In First Out) કહેવાય છે[span_2](start_span)[span_2](end_span).",
+    "correct": 3,
+    "explanation": "RAM માં પ્રથમ દાખલ થયેલ ડેટા પ્રથમ બહાર નીકળે તેને FIFO (First In First Out) કહેવાય છે.",
     "img": null
   },
   {
     "q": "કમ્પ્યુટર મેમરીમાં કઈ પ્રકારની RAM ને ડેટા જાળવી રાખવા માટે પ્રતિ સેકન્ડે વારંવાર રિફ્રેશ (Refresh) કરવી પડે છે?",
     "options": [
-      "DRAM (Dynamic RAM)",
-      "SRAM (Static RAM)",
-      "NVRAM",
-      "PROM"
+      "DRAM (ડાયનેમિક રેન્ડમ એક્સેસ મેમરી)",
+      "SRAM (સ્ટેટિક રેન્ડમ એક્સેસ મેમરી)",
+      "NVRAM (નોન-વોલેટાઇલ સિસ્ટમ મેમરી)",
+      "PROM (પ્રોગ્રામેબલ રીડ ઓન્લી મેમરી)"
     ],
     "correct": 0,
-    "explanation": "DRAM કેપેસિટર અને ટ્રાન્ઝિસ્ટરની બનેલી હોવાથી તેના ચાર્જને જાળવવા વારંવાર રિફ્રેશ કરવી પડે છે[span_3](start_span)[span_3](end_span).",
+    "explanation": "DRAM કેપેસિટર અને ટ્રાન્ઝિસ્ટરની બનેલી હોવાથી તેના ચાર્જને જાળવવા વારંવાર રિફ્રેશ કરવી પડે છે.",
     "img": null
   },
   {
     "q": "કઈ હાઇ-સ્પીડ RAM ફ્લિપ-ફ્લોપ સર્કિટ વાપરે છે અને તેને વારંવાર રિફ્રેશ કરવાની જરૂર પડતી નથી?",
     "options": [
-      "SRAM (Static RAM)",
-      "DRAM",
-      "SDRAM",
-      "DDR RAM"
+      "DRAM (ડાયનેમિક રેમ ચિપ)",
+      "SRAM (સ્ટેટિક રેમ સર્કિટ)",
+      "SDRAM (સિન્ક્રોનસ રેમ ચિપ)",
+      "DDR RAM (ડબલ ડેટા રેટ)"
     ],
-    "correct": 0,
-    "explanation": "SRAM (Static RAM) ફ્લિપ-ફ્લોપ આધારિત છે, જે રિફ્રેશ વગર ડેટા જાળવી રાખે છે અને કેશ મેમરી બનાવવામાં વપરાય છે[span_4](start_span)[span_4](end_span).",
+    "correct": 1,
+    "explanation": "SRAM (Static RAM) ફ્લિપ-ફ્લોપ આધારિત છે, જે રિફ્રેશ વગર ડેટા જાળવી રાખે છે અને કેશ મેમરી બનાવવામાં વપરાય છે.",
     "img": null
   },
   {
     "q": "કમ્પ્યુટર મધરબોર્ડ પર સ્થાયી રહેલા 'BIOS' ચીપમાં સંગ્રહિત પ્રોગ્રામ્સને ટેકનિકલ ભાષામાં શું કહેવાય છે?",
     "options": [
-      "ફર્મવેર (Firmware)",
-      "શેરવેર",
-      "ફ્રીવેર",
-      "માલવેર"
+      "શેરવેર સોફ્ટવેર (Shareware)",
+      "ફ્રીવેર સોફ્ટવેર (Freeware)",
+      "ફર્મવેર કોડ (Firmware Code)",
+      "માલવેર થ્રેટ્સ (Malware Code)"
     ],
-    "correct": 0,
-    "explanation": "હાર્ડવેર ચિપ (ROM) ની અંદર કાયમી રીતે લખાયેલા સોફ્ટવેર પ્રોગ્રામ્સને Firmware કહેવામાં આવે છે[span_5](start_span)[span_5](end_span).",
+    "correct": 2,
+    "explanation": "હાર્ડવેર ચિપ (ROM) ની અંદર કાયમી રીતે લખાયેલા સોફ્ટવેર પ્રોગ્રામ્સને Firmware કહેવામાં આવે છે.",
     "img": null
   },
   {
     "q": "કમ્પ્યુટર સ્વિચ ઓન થતાં જ તમામ હાર્ડવેર યોગ્ય રીતે કાર્યરત છે કે નહીં તે તપાસતી પ્રક્રિયા 'POST' નું પૂરું નામ શું છે?",
     "options": [
-      "Power-On Self-Test",
       "Program-On System Test",
       "Primary Operating System Task",
-      "Processor Optimum Speed Test"
+      "Processor Optimum Speed Test",
+      "Power-On Self-Test (POST)"
     ],
-    "correct": 0,
-    "explanation": "POST (Power-On Self-Test) એ બૂટિંગ દરમિયાન BIOS દ્વારા કરવામાં આવતી પ્રારંભિક હાર્ડવેર ચકાસણી છે[span_6](start_span)[span_6](end_span).",
+    "correct": 3,
+    "explanation": "POST (Power-On Self-Test) એ બૂટિંગ દરમિયાન BIOS દ્વારા કરવામાં આવતી પ્રારંભિક હાર્ડવેર ચકાસણી છે.",
     "img": null
   },
   {
     "q": "ROM ના કયા પ્રકારમાં અલ્ટ્રાવાયોલેટ (UV - પારજાંબલી) કિરણોની મદદથી ડેટા ભૂંસીને નવો પ્રોગ્રામ લખી શકાય છે?",
     "options": [
-      "EPROM (Erasable Programmable ROM)",
-      "PROM",
-      "EEPROM",
-      "Mask ROM"
+      "EPROM (ઇરેઝેબલ પ્રોગ્રામેબલ રોમ)",
+      "PROM (પ્રોગ્રામેબલ રીડ ઓન્લી રોમ)",
+      "EEPROM (ઇલેક્ટ્રિકલ ઇરેઝેબલ રોમ)",
+      "Mask ROM (ફેક્ટરી પ્રોગ્રામ્ડ રોમ)"
     ],
     "correct": 0,
-    "explanation": "EPROM માં ચિપ પર ક્વાર્ટ્ઝ વિન્ડો હોય છે જેના પર UV લાઇટ ફેંકીને જૂનો ડેટા ઇરેઝ કરી શકાય છે[span_7](start_span)[span_7](end_span).",
+    "explanation": "EPROM માં ચિપ પર ક્વાર્ટ્ઝ વિન્ડો હોય છે જેના પર UV લાઇટ ફેંકીને જૂનો ડેટા ઇરેઝ કરી શકાય છે.",
     "img": null
   },
   {
     "q": "વિદ્યુત પ્રવાહ (ઇલેક્ટ્રિકલ સિગ્નલ) વડે ડેટા ભૂંસી અને ફરી લખી શકાતી આધુનિક ફ્લેશ ROM ને શું કહે છે?",
     "options": [
-      "EEPROM (Electrically Erasable Programmable ROM)",
-      "EPROM",
-      "PROM",
-      "SRAM"
+      "EPROM (અલ્ટ્રાવાયોલેટ ઇરેઝેબલ રોમ)",
+      "EEPROM (ઇલેક્ટ્રિકલી ઇરેઝેબલ રોમ)",
+      "PROM (વન-ટાઇમ પ્રોગ્રામેબલ રોમ)",
+      "SRAM (સ્ટેટિક વોલેટાઇલ મેમરી ચિપ)"
     ],
-    "correct": 0,
-    "explanation": "EEPROM ને ઇલેક્ટ્રિકલ વોલ્ટેજ દ્વારા સર્કિટમાંથી બહાર કાઢ્યા વગર સરળતાથી રી-પ્રોગ્રામ કરી શકાય છે[span_8](start_span)[span_8](end_span).",
+    "correct": 1,
+    "explanation": "EEPROM ને ઇલેક્ટ્રિકલ વોલ્ટેજ દ્વારા સર્કિટમાંથી બહાર કાઢ્યા વગર સરળતાથી રી-પ્રોગ્રામ કરી શકાય છે.",
     "img": null
   },
   {
     "q": "CPU અને મુખ્ય મેમરી (RAM) વચ્ચે ગતિનો તફાવત ઘટાડવા માટે મૂકવામાં આવતી અતિ ઝડપી બફર મેમરી કઈ છે?",
     "options": [
-      "કેશ મેમરી (Cache Memory)",
-      "વર્ચ્યુઅલ મેમરી",
-      "હાર્ડ ડિસ્ક",
-      "ઓપ્ટિકલ ડ્રાઇવ"
+      "વર્ચ્યુઅલ મેમરી (ડિસ્ક સ્પેસ)",
+      "હાર્ડ ડિસ્ક ડ્રાઇવ (ડેટા સ્ટોરેજ)",
+      "કેશ મેમરી (હાઇ-સ્પીડ બફર)",
+      "ઓપ્ટિકલ ડ્રાઇવ (લેસર સ્ટોરેજ)"
     ],
-    "correct": 0,
-    "explanation": "Cache Memory એ અત્યંત ઝડપી SRAM મેમરી છે જે વારંવાર વપરાતો ડેટા સંગ્રહીને CPU નો પ્રોસેસિંગ સમય બચાવે છે[span_9](start_span)[span_9](end_span).",
+    "correct": 2,
+    "explanation": "Cache Memory એ અત્યંત ઝડપી SRAM મેમરી છે જે વારંવાર વપરાતો ડેટા સંગ્રહીને CPU નો પ્રોસેસિંગ સમય બચાવે છે.",
     "img": null
   },
   {
     "q": "કેશ મેમરીના સ્તરો (L1, L2, L3) માં સૌથી ઝડપી અને સીધી CPU કોરની અંદર જ આવેલી કેશ કઈ છે?",
     "options": [
-      "L1 Cache (લેવલ 1 કેશ)",
-      "L2 Cache",
-      "L3 Cache",
-      "ડિસ્ક કેશ"
+      "L2 Cache (લેવલ ૨ સેકન્ડરી કેશ)",
+      "L3 Cache (લેવલ ૩ શેરિંગ કેશ)",
+      "ડિસ્ક કેશ (ઓપરેટિંગ સિસ્ટમ કેશ)",
+      "L1 Cache (લેવલ ૧ પ્રાઇમરી કેશ)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "L1 Cache સીધી પ્રોસેસર કોરની અંદર હોય છે, જેથી તે સૌથી ઝડપી પણ કદમાં સૌથી નાની (KB માં) હોય છે.",
     "img": null
   },
@@ -135,9 +135,9 @@
     "q": "જ્યારે RAM ની ક્ષમતા ઓછી પડે ત્યારે હાર્ડ ડિસ્કના ચોક્કસ ભાગને કામચલાઉ RAM તરીકે વાપરવામાં આવે તેને શું કહે છે?",
     "options": [
       "વર્ચ્યુઅલ મેમરી (Virtual Memory)",
-      "ફ્લેશ મેમરી",
-      "કેશ મેમરી",
-      "બફર મેમરી"
+      "ફ્લેશ સ્ટોરેજ (Flash Memory)",
+      "કેશ બફરિંગ (Cache Buffering)",
+      "મુખ્ય રજિસ્ટર (Core Register)"
     ],
     "correct": 0,
     "explanation": "Virtual Memory ઓપરેટિંગ સિસ્ટમ દ્વારા હાર્ડ ડ્રાઇવ પર બનાવવામાં આવેલું એક કાલ્પનિક એક્સટેન્શન છે.",
@@ -146,158 +146,157 @@
   {
     "q": "કમ્પ્યુટર મેમરીનો સૌથી નાનામાં નાનો મૂળભૂત એકમ કયો છે, જે માત્ર 0 અથવા 1 મૂલ્ય ધરાવે છે?",
     "options": [
-      "બિટ (Bit - Binary Digit)",
-      "બાઇટ (Byte)",
-      "નિબલ (Nibble)",
-      "વર્ડ"
+      "બાઇટ એકમ (8-Bit Data Byte)",
+      "બિટ એકમ (Binary Digit - Bit)",
+      "નિબલ એકમ (4-Bit Data Group)",
+      "વર્ડ એકમ (System Data Word)"
     ],
-    "correct": 0,
-    "explanation": "Bit (Binary Digit) મેમરીનો પાયાનો એકમ છે, જે 0 અથવા 1 નું સિંગલ બાયનરી સ્ટેટસ દર્શાવે છે[span_10](start_span)[span_10](end_span).",
+    "correct": 1,
+    "explanation": "Bit (Binary Digit) મેમરીનો પાયાનો એકમ છે, જે 0 અથવા 1 નું સિંગલ બાયનરી સ્ટેટસ દર્શાવે છે.",
     "img": null
   },
   {
     "q": "કમ્પ્યુટર મેમરીના માપદંડમાં સતત 4 બિટ્સ (4 Bits) ના સમૂહને કયા નામે ઓળખવામાં આવે છે?",
     "options": [
-      "નિબલ (Nibble)",
-      "બાઇટ",
-      "ઓક્ટેટ",
-      "કિલોબિટ"
+      "બાઇટ એકમ (Data Byte)",
+      "ઓક્ટેટ એકમ (Octet Group)",
+      "નિબલ એકમ (4-Bit Nibble)",
+      "કિલોબિટ એકમ (Kilobit Group)"
     ],
-    "correct": 0,
-    "explanation": "4 Bits = 1 Nibble (અડધો બાઇટ) થાય છે[span_11](start_span)[span_11](end_span).",
+    "correct": 2,
+    "explanation": "4 Bits = 1 Nibble (અડધો બાઇટ) થાય છે.",
     "img": null
   },
   {
     "q": "કમ્પ્યુટરમાં કોઈપણ એક અક્ષર, આંકડો કે ચિહ્ન સંગ્રહવા માટે જરૂરી 8 બિટ્સ (8 Bits) ના સમૂહને શું કહે છે?",
     "options": [
-      "બાઇટ (1 Byte)",
-      "1 નિબલ",
-      "1 KB",
-      "1 Bit"
+      "૧ નિબલ એકમ (4-Bits Group)",
+      "૧ કિલોબાઇટ એકમ (1024 Bytes)",
+      "૧ બિટ એકમ (Single Binary)",
+      "૧ બાઇટ એકમ (Standard Byte)"
     ],
-    "correct": 0,
-    "explanation": "8 Bits બરાબર 1 Byte બને છે, જે એક સિંગલ કેરેક્ટર સ્ટોર કરવા માટે પૂરતો છે[span_12](start_span)[span_12](end_span).",
+    "correct": 3,
+    "explanation": "8 Bits બરાબર 1 Byte બને છે, જે એક સિંગલ કેરેક્ટર સ્ટોર કરવા માટે પૂરતો છે.",
     "img": null
   },
   {
     "q": "1 કિલોબાઇટ (1 KB) ની અંદર બરાબર કેટલા બાઇટ્સ (Bytes) આવેલા હોય છે?",
     "options": [
-      "1024 બાઇટ્સ",
-      "1000 બાઇટ્સ",
-      "512 બાઇટ્સ",
-      "2048 બાઇટ્સ"
+      "૧૦૨૪ બાઇટ્સ (Binary 2^10)",
+      "૧૦૦૦ બાઇટ્સ (Decimal Round)",
+      "૫૧૨ બાઇટ્સ (Half Sector)",
+      "૨૦૪૮ બાઇટ્સ (Double Sector)"
     ],
     "correct": 0,
-    "explanation": "બાયનરી ગણતરી ($2^{10}$) મુજબ 1 KB = 1024 Bytes થાય છે[span_13](start_span)[span_13](end_span).",
+    "explanation": "બાયનરી ગણતરી (2^10) મુજબ 1 KB = 1024 Bytes થાય છે.",
     "img": null
   },
   {
     "q": "1 ગીગાબાઇટ (1 GB) ની મેમરી ક્ષમતા બરાબર કેટલા મેગાબાઇટ્સ (MB) થાય છે?",
     "options": [
-      "1024 MB",
-      "1000 MB",
-      "1024 KB",
-      "1024 TB"
+      "૧૦૦૦ MB (ડેસિમલ કેલ્ક્યુલેશન)",
+      "૧૦૨૪ MB (બાયનરી કેલ્ક્યુલેશન)",
+      "૧૦૨૪ KB (કિલોબાઇટ્સ બ્લોક)",
+      "૧૦૨૪ TB (ટેરાબાઇટ્સ બ્લોક)"
     ],
-    "correct": 0,
-    "explanation": "1024 Mega Bytes (MB) ભેગા મળીને 1 Giga Byte (GB) બનાવે છે[span_14](start_span)[span_14](end_span).",
+    "correct": 1,
+    "explanation": "1024 Mega Bytes (MB) ભેગા મળીને 1 Giga Byte (GB) બનાવે છે.",
     "img": null
   },
   {
     "q": "1 ટેરાબાઇટ (1 TB) ની સ્ટોરેજ ક્ષમતા નીચેનામાંથી કોના બરાબર થાય છે?",
     "options": [
-      "1024 GB (ગીગાબાઇટ્સ)",
-      "1024 MB",
-      "1024 PB",
-      "1000 GB"
+      "૧૦૨૪ MB મેગાબાઇટ્સ યુનિટ",
+      "૧૦૨૪ PB પેટાબાઇટ્સ યુનિટ",
+      "૧૦૨૪ GB ગીગાબાઇટ્સ યુનિટ",
+      "૧૦૦૦ GB રાઉન્ડ ગીગાબાઇટ્સ"
     ],
-    "correct": 0,
-    "explanation": "1024 GB = 1 Tera Byte (TB) થાય છે[span_15](start_span)[span_15](end_span).",
+    "correct": 2,
+    "explanation": "1024 GB = 1 Tera Byte (TB) થાય છે.",
     "img": null
   },
   {
     "q": "1024 ટેરાબાઇટ (1024 TB) ભેગા થવાથી મેમરીનો કયો મોટો એકમ બને છે?",
     "options": [
-      "1 પેટાબાઇટ (1 PB)",
-      "1 એક્સાબાઇટ (1 EB)",
-      "1 ઝેટાબાઇટ (1 ZB)",
-      "1 યોટાબાઇટ (1 YB)"
+      "૧ એક્સાબાઇટ એકમ (1 EB)",
+      "૧ ઝેટાબાઇટ એકમ (1 ZB)",
+      "૧ યોટાબાઇટ એકમ (1 YB)",
+      "૧ પેટાબાઇટ એકમ (1 PB)"
     ],
-    "correct": 0,
-    "explanation": "1024 TB = 1 Peta Byte (PB) બને છે[span_16](start_span)[span_16](end_span).",
+    "correct": 3,
+    "explanation": "1024 TB = 1 Peta Byte (PB) બને છે.",
     "img": null
   },
   {
     "q": "મેમરી એકમોના ચડતા ક્રમમાં 'યોટાબાઇટ' (1 YB) પછી આવતો સૌથી મોટો સૈદ્ધાંતિક એકમ કયો છે?",
     "options": [
       "બ્રોન્ટો બાઇટ (Bronte Byte - BB)",
-      "ઝેટાબાઇટ (ZB)",
-      "એક્સાબાઇટ (EB)",
-      "પેટાબાઇટ (PB)"
+      "ઝેટાબાઇટ એકમ (Zeta Byte - ZB)",
+      "એક્સાબાઇટ એકમ (Exa Byte - EB)",
+      "પેટાબાઇટ એકમ (Peta Byte - PB)"
     ],
     "correct": 0,
-    "explanation": "1024 YB બરાબર 1 Bronte Byte (BB) અને ત્યારબાદ જીઓપ બાઇટ (Geop Byte) આવે છે[span_17](start_span)[span_17](end_span).",
+    "explanation": "1024 YB બરાબર 1 Bronte Byte (BB) અને ત્યારબાદ જીઓપ બાઇટ (Geop Byte) આવે છે.",
     "img": null
   },
   {
     "q": "અક્ષરોને બાયનરી કોડ આપતી સંસ્થા 'ASCII' નું પૂર્ણ સ્વરૂપ શું છે?",
     "options": [
-      "American Standard Code for Information Interchange",
       "Applied Standard Code for Internet Interface",
+      "American Standard Code for Information Interchange",
       "American System Code for Information Integration",
       "Automated Standard Code for Input Interchange"
     ],
-    "correct": 0,
-    "explanation": "ASCII એટલે American Standard Code for Information Interchange[span_18](start_span)[span_18](end_span).",
+    "correct": 1,
+    "explanation": "ASCII એટલે American Standard Code for Information Interchange.",
     "img": null
   },
   {
     "q": "માનક 7-બિટ ASCII કોડિંગ સિસ્ટમ હેઠળ કુલ કેટલા અનન્ય અક્ષરો કે ચિહ્નો દર્શાવી શકાય છે?",
     "options": [
-      "128 અક્ષરો ($2^7$)",
-      "256 અક્ષરો",
-      "64 અક્ષરો",
-      "512 અક્ષરો"
+      "૨૫૬ અક્ષરો (Extended 8-Bit)",
+      "૬૪ અક્ષરો (Basic Characters)",
+      "૧૨૮ અક્ષરો (Standard 2^7)",
+      "૫૧૨ અક્ષરો (Expanded System)"
     ],
-    "correct": 0,
-    "explanation": "7-Bit ASCII કુલ 128 કેરેક્ટર્સ અને 8-Bit Extended ASCII કુલ 256 કેરેક્ટર્સને કોડ પ્રદાન કરે છે[span_19](start_span)[span_19](end_span).",
+    "correct": 2,
+    "explanation": "7-Bit ASCII કુલ 128 કેરેક્ટર્સ અને 8-Bit Extended ASCII કુલ 256 કેરેક્ટર્સને કોડ પ્રદાન કરે છે.",
     "img": null
   },
   {
     "q": "વિશ્વની તમામ ભાષાઓ (ગુજરાતી, હિન્દી, ચાઇનીઝ વગેરે) ના તમામ અક્ષરોને સાર્વત્રિક ડિજિટલ કોડ આપતી સિસ્ટમ કઈ છે?",
     "options": [
-      "યુનિકોડ (UNICODE)",
-      "ASCII",
-      "EBCDIC",
-      "BCD"
+      "ASCII કોડિંગ સિસ્ટમ (7-Bit)",
+      "EBCDIC કોડિંગ સિસ્ટમ (IBM)",
+      "BCD બાયનરી ડેસિમલ કોડિંગ",
+      "યુનિકોડ (UNICODE Universal)"
     ],
-    "correct": 0,
-    "explanation": "UNICODE (UTF-8, UTF-16) વૈશ્વિક સ્તરે દરેક ભાષાના અક્ષરોને અનન્ય ડિજિટલ ઓળખ પૂરી પાડે છે[span_20](start_span)[span_20](end_span).",
+    "correct": 3,
+    "explanation": "UNICODE (UTF-8, UTF-16) વૈશ્વિક સ્તરે દરેક ભાષાના અક્ષરોને અનન્ય ડિજિટલ ઓળખ પૂરી પાડે છે.",
     "img": null
   },
   {
     "q": "પરંપરાગત બિટ્સ (0 કે 1) ના બદલે ક્વોન્ટમ કમ્પ્યુટરમાં મેમરી સંગ્રહવા માટે કયો એકમ વપરાય છે?",
     "options": [
-      "ક્યુબિટ / ક્વોન્ટમ બિટ (Qubit)",
-      "સુપર બાઇટ",
-      "મેગા બિટ",
-      "ફોટોન બિટ"
+      "ક્યુબિટ (Qubit - Quantum Bit)",
+      "સુપર બાઇટ (Super Byte System)",
+      "મેગા બિટ (High-Speed Bit)",
+      "ફોટોન બિટ (Photon Laser Bit)"
     ],
     "correct": 0,
-    "explanation": "ક્વોન્ટમ કમ્પ્યુટિંગમાં 'સુપરપોઝિશન' સિદ્ધાંત પર કાર્ય કરતા એકમને Qubit (Quantum Bit) કહે છે[span_21](start_span)[span_21](end_span).",
+    "explanation": "ક્વોન્ટમ કમ્પ્યુટિંગમાં 'સુપરપોઝિશન' સિદ્ધાંત પર કાર્ય કરતા એકમને Qubit (Quantum Bit) કહે છે.",
     "img": null
   },
   {
     "q": "ગૂગલ (Google) દ્વારા ક્વોન્ટમ સુપ્રીમસી (Quantum Supremacy) સિદ્ધ કરવા માટે વિકસાવવામાં આવેલા ક્વોન્ટમ પ્રોસેસરનું નામ શું છે?",
     "options": [
-      "સાયકામોર (Sycamore)",
-      "ડીપમાઇન્ડ",
-      "વોટસન",
-      "શક્તિ"
+      "ડીપમાઇન્ડ ન્યુરલ નેટવર્ક (DeepMind)",
+      "સાયકામોર પ્રોસેસર (Sycamore Chip)",
+      "વોટસન કોગ્નિટિવ સિસ્ટમ (Watson AI)",
+      "શક્તિ સ્વદેશી પ્રોસેસર (Shakti Core)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "ગૂગલે 53-ક્યુબિટ ક્ષમતા ધરાવતા 'Sycamore' પ્રોસેસર વડે ક્વોન્ટમ સુપ્રીમસી દર્શાવી હતી.",
     "img": null
   }
 ]
-
