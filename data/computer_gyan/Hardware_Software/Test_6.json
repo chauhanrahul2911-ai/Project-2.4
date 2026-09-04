@@ -2,34 +2,34 @@
   {
     "q": "કમ્પ્યુટરમાં કાયમી ધોરણે ડેટા અને પ્રોગ્રામ્સનો મોટો જથ્થો સાચવતી 'સેકન્ડરી મેમરી' નું બીજું ટેકનિકલ નામ શું છે?",
     "options": [
+      "વોલેટાઈલ ટેમ્પરરી મેમરી",
       "ઓક્ઝિલરી મેમરી (Auxiliary Memory)",
-      "મેઈન મેમરી",
-      "વોલેટાઈલ મેમરી",
-      "ઇન્ટરનલ મેમરી"
+      "મેઈન સિસ્ટમ પ્રાઇમરી મેમરી",
+      "ઇન્ટરનલ કેશ બફર મેમરી"
     ],
-    "correct": 0,
-    "explanation": "સેકન્ડરી સ્ટોરેજ ડિવાઇસિસને ઓક્ઝિલરી મેમરી (Auxiliary Memory) કે ગૌણ મેમરી તરીકે પણ ઓળખવામાં આવે છે[span_0](start_span)[span_0](end_span).",
+    "correct": 1,
+    "explanation": "સેકન્ડરી સ્ટોરેજ ડિવાઇસિસને ઓક્ઝિલરી મેમરી (Auxiliary Memory) કે ગૌણ મેમરી તરીકે પણ ઓળખવામાં આવે છે.",
     "img": null
   },
   {
     "q": "કમ્પ્યુટરની હાર્ડ ડિસ્કમાં રહેલી ગોળાકાર પ્લેટર પર ડેટા સંગ્રહવા માટે બનેલા કેન્દ્રાગામી વર્તુળોને શું કહેવાય છે?",
     "options": [
-      "ટ્રેક (Tracks)",
-      "સેક્ટર (Sectors)",
-      "ક્લસ્ટર",
-      "સિલિન્ડર"
+      "સેક્ટર યુનિટ્સ (Disk Sectors)",
+      "ક્લસ્ટર બ્લોક્સ (File Clusters)",
+      "ટ્રેક રિંગ્સ (Magnetic Tracks)",
+      "સિલિન્ડર ગ્રુપ્સ (Disk Cylinder)"
     ],
-    "correct": 0,
-    "explanation": "હાર્ડ ડિસ્કની પ્લેટર પર વર્તુળાકાર રિંગ્સને ટ્રેક (Tracks) કહેવાય છે અને દરેક ટ્રેકના નાના પેટા-ભાગને સેક્ટર (Sector) કહે છે[span_1](start_span)[span_1](end_span).",
+    "correct": 2,
+    "explanation": "હાર્ડ ડિસ્કની પ્લેટર પર વર્તુળાકાર રિંગ્સને ટ્રેક (Tracks) કહેવાય છે અને દરેક ટ્રેકના નાના પેટા-ભાગને સેક્ટર (Sector) કહે છે.",
     "img": null
   },
   {
     "q": "હાર્ડ ડિસ્કમાં એક 'સેક્ટર' (Sector) ની માનક ડેટા સંગ્રહ ક્ષમતા સામાન્ય રીતે કેટલી હોય છે?",
     "options": [
-      "512 બાઇટ્સ (512 Bytes)",
-      "1024 KB",
-      "1 MB",
-      "128 બિટ્સ"
+      "૫૧૨ બાઇટ્સ ક્ષમતા (512 Bytes)",
+      "૧૦૨૪ કિલોબાઇટ્સ ક્ષમતા (1024 KB)",
+      "૧ મેગાબાઇટ ક્ષમતા (1 MB Sector)",
+      "૧૨૮ બિટ્સ ડેટા ક્ષમતા (128 Bits)"
     ],
     "correct": 0,
     "explanation": "પરંપરાગત હાર્ડ ડિસ્કમાં પ્રત્યેક સેક્ટર 512 બાઇટ્સ ડેટા સ્ટોર કરે છે (આધુનિક એડવાન્સ ફોર્મેટમાં તે 4096 બાઇટ્સ હોય છે).",
@@ -38,132 +38,132 @@
   {
     "q": "હાર્ડ ડિસ્કની ફરવાની ઝડપ (Spindle Speed) કયા એકમમાં માપવામાં આવે છે?",
     "options": [
+      "DPI પ્રિન્ટિંગ રિઝોલ્યુશન એકમ",
       "RPM (Revolutions Per Minute)",
-      "DPI",
-      "PPM",
-      "GHz"
+      "PPM પેજીસ પ્રતિ મિનિટ દર",
+      "GHz પ્રોસેસિંગ ક્લોક ફ્રીક્વન્સી"
     ],
-    "correct": 0,
-    "explanation": "હાર્ડ ડિસ્કની પ્લેટર પ્રતિ મિનિટ કેટલા ચક્કર લગાવે છે તે RPM (દા.ત. 5400 RPM કે 7200 RPM) માં માપવામાં આવે છે[span_2](start_span)[span_2](end_span).",
+    "correct": 1,
+    "explanation": "હાર્ડ ડિસ્કની પ્લેટર પ્રતિ મિનિટ કેટલા ચક્કર લગાવે છે તે RPM (દા.ત. 5400 RPM કે 7200 RPM) માં માપવામાં આવે છે.",
     "img": null
   },
   {
     "q": "હાર્ડ ડિસ્કને મધરબોર્ડ સાથે જોડવા માટે વપરાતી આધુનિક કેબલ ઇન્ટરફેસ ટેકનોલોજી 'SATA' નું પૂરું નામ શું છે?",
     "options": [
-      "Serial Advanced Technology Attachment",
-      "System Auto Transfer Architecture",
-      "Standard Auxiliary Technology Access",
-      "Sequential Access Transmission Array"
+      "System Auto Transfer Architecture Protocol",
+      "Serial Advanced Technology Attachment (SATA)",
+      "Standard Auxiliary Technology Access Interface",
+      "Sequential Access Transmission Array Architecture"
     ],
-    "correct": 0,
-    "explanation": "SATA એટલે Serial Advanced Technology Attachment, જે જૂની PATA (Parallel ATA) ની જગ્યાએ હાઇ-સ્પીડ ડેટા ટ્રાન્સફર આપે છે[span_3](start_span)[span_3](end_span).",
+    "correct": 1,
+    "explanation": "SATA એટલે Serial Advanced Technology Attachment, જે જૂની PATA (Parallel ATA) ની જગ્યાએ હાઇ-સ્પીડ ડેટા ટ્રાન્સફર આપે છે.",
     "img": null
   },
   {
     "q": "હાર્ડ ડિસ્કના વિકલ્પ તરીકે વપરાતી, કોઈપણ મુવિંગ પાર્ટ્સ વિના NAND ફ્લેશ મેમરી પર ઝડપી કાર્ય કરતી 'SSD' નું પૂર્ણ સ્વરૂપ શું છે?",
     "options": [
-      "Solid State Drive",
-      "System Storage Device",
-      "Static Silicon Drive",
-      "Serial Storage Disk"
+      "System Storage Device (SSD Drive)",
+      "Static Silicon Drive (SSD Drive)",
+      "Serial Storage Disk (SSD Drive)",
+      "Solid State Drive (SSD Drive)"
     ],
-    "correct": 0,
-    "explanation": "SSD એટલે Solid State Drive, જે ચિપ આધારિત મેમરી વાપરતી હોવાથી પરંપરાગત HDD કરતાં અનેક ગણી ઝડપી અને ટકાઉ હોય છે[span_4](start_span)[span_4](end_span).",
+    "correct": 3,
+    "explanation": "SSD એટલે Solid State Drive, જે ચિપ આધારિત મેમરી વાપરતી હોવાથી પરંપરાગત HDD કરતાં અનેક ગણી ઝડપી અને ટકાઉ હોય છે.",
     "img": null
   },
   {
     "q": "વર્ષ 1973માં IBM કંપની દ્વારા બનાવવામાં આવેલી 3.5 ઇંચ ફ્લોપી ડિસ્કની મહત્તમ ડેટા સંગ્રહ ક્ષમતા કેટલી હતી?",
     "options": [
-      "1.44 MB",
-      "1.44 GB",
-      "700 MB",
-      "512 KB"
+      "૧.૪૪ MB સ્ટોરેજ ક્ષમતા (1.44 MB)",
+      "૧.૪૪ GB સ્ટોરેજ ક્ષમતા (1.44 GB)",
+      "૭૦૦ MB સ્ટોરેજ ક્ષમતા (700 MB)",
+      "૫૧૨ KB સ્ટોરેજ ક્ષમતા (512 KB)"
     ],
     "correct": 0,
-    "explanation": "3.5 ઇંચની સ્ટાન્ડર્ડ ફ્લોપી ડિસ્કની મેક્સિમમ સ્ટોરેજ કેપેસિટી માત્ર 1.44 MB જેટલી હતી[span_5](start_span)[span_5](end_span).",
+    "explanation": "3.5 ઇંચની સ્ટાન્ડર્ડ ફ્લોપી ડિસ્કની મેક્સિમમ સ્ટોરેજ કેપેસિટી માત્ર 1.44 MB જેટલી હતી.",
     "img": null
   },
   {
     "q": "ઓપ્ટિકલ ડિસ્ક (CD / DVD / Blu-ray) પર ડેટા લખવા કે વાંચવા માટે કયા કિરણોનો ઉપયોગ થાય છે?",
     "options": [
-      "લેઝર બીમ (Laser Beam)",
-      "ઇન્ફ્રારેડ કિરણો",
-      "અલ્ટ્રાવાયોલેટ કિરણો",
-      "એક્સ-રે કિરણો"
+      "ઇન્ફ્રારેડ થર્મલ તરંગો (Infrared)",
+      "લેઝર બીમ કિરણો (Laser Optical)",
+      "અલ્ટ્રાવાયોલેટ કિરણો (UV Waves)",
+      "એક્સ-રે કિરણો (X-Ray Radiation)"
     ],
-    "correct": 0,
-    "explanation": "ઓપ્ટિકલ ડિસ્ક પર લેઝર લાઇટ ફેંકીને પિટ્સ (Pits) અને લેન્ડ્સ (Lands) સ્વરૂપે ડેટા રીડ-રાઇટ કરવામાં આવે છે[span_6](start_span)[span_6](end_span).",
+    "correct": 1,
+    "explanation": "ઓપ્ટિકલ ડિસ્ક પર લેઝર લાઇટ ફેંકીને પિટ્સ (Pits) અને લેન્ડ્સ (Lands) સ્વરૂપે ડેટા રીડ-રાઇટ કરવામાં આવે છે.",
     "img": null
   },
   {
     "q": "ઓપ્ટિકલ ડિસ્ક (જેમ કે CD કે DVD) માં સોફ્ટવેર દ્વારા નવો ડેટા રાઇટ કરવાની પ્રક્રિયાને શું કહે છે?",
     "options": [
-      "બર્નિંગ (Burning Process)",
-      "બૂટિંગ",
-      "ફોર્મેટિંગ",
-      "ડમ્પિંગ"
+      "સિસ્ટમ બૂટિંગ ક્રિયા (Booting)",
+      "ડિસ્ક ફોર્મેટિંગ (Formatting)",
+      "બર્નિંગ ક્રિયા (Burning Process)",
+      "ડેટા ડમ્પિંગ પ્રોસેસ (Dumping)"
     ],
-    "correct": 0,
-    "explanation": "CD/DVD માં ડેટા રાઇટ કરવાની ક્રિયાને Burning કહેવાય છે અને તેના માટે Nero જેવા બર્નિંગ સોફ્ટવેર વપરાય છે[span_7](start_span)[span_7](end_span).",
+    "correct": 2,
+    "explanation": "CD/DVD માં ડેટા રાઇટ કરવાની ક્રિયાને Burning કહેવાય છે અને તેના માટે Nero જેવા બર્નિંગ સોફ્ટવેર વપરાય છે.",
     "img": null
   },
   {
     "q": "પ્રમાણભૂત કોમ્પેક્ટ ડિસ્ક (CD - Compact Disk) ની સામાન્ય ડેટા સંગ્રહ ક્ષમતા કેટલી હોય છે?",
     "options": [
-      "700 MB",
-      "4.7 GB",
-      "25 GB",
-      "1.44 MB"
+      "૪.૭ GB સામાન્ય સ્ટોરેજ ક્ષમતા",
+      "૨૫ GB હાઇ-કેપેસિટી સ્ટોરેજ",
+      "૧.૪૪ MB લિમિટેડ ડેટા સ્ટોરેજ",
+      "૭૦૦ MB સ્ટાન્ડર્ડ ડેટા ક્ષમતા"
     ],
-    "correct": 0,
-    "explanation": "માનક CD ની સંગ્રહ ક્ષમતા આશરે 700 MB (અથવા 80 મિનિટનો ઓડિયો) હોય છે[span_8](start_span)[span_8](end_span).",
+    "correct": 3,
+    "explanation": "માનક CD ની સંગ્રહ ક્ષમતા આશરે 700 MB (અથવા 80 મિનિટનો ઓડિયો) હોય છે.",
     "img": null
   },
   {
     "q": "વિડિઓ અને ડેટા માટે વપરાતી 'DVD' નું પૂર્ણ સ્વરૂપ નીચેનામાંથી કયું છે?",
     "options": [
-      "Digital Versatile Disk (અથવા Digital Video Disk)",
-      "Direct Video Device",
-      "Digital Visual Drive",
-      "Dynamic Variable Disk"
+      "Digital Versatile Disk (DVD Disk)",
+      "Direct Video Device (DVD Device)",
+      "Digital Visual Drive (DVD Drive)",
+      "Dynamic Variable Disk (DVD Disk)"
     ],
     "correct": 0,
-    "explanation": "DVD એટલે Digital Versatile Disk અથવા Digital Video Disk[span_9](start_span)[span_9](end_span).",
+    "explanation": "DVD એટલે Digital Versatile Disk અથવા Digital Video Disk.",
     "img": null
   },
   {
     "q": "સિંગલ લેયર સ્ટાન્ડર્ડ DVD ની સામાન્ય સ્ટોરેજ ક્ષમતા કેટલી હોય છે?",
     "options": [
-      "4.7 GB",
-      "700 MB",
-      "8.5 GB",
-      "25 GB"
+      "૭૦૦ MB સિંગલ લેયર કેપેસિટી",
+      "૪.૭ GB સિંગલ લેયર કેપેસિટી",
+      "૮.૫ GB સિંગલ લેયર કેપેસિટી",
+      "૨૫ GB સિંગલ લેયર કેપેસિટી"
     ],
-    "correct": 0,
-    "explanation": "સિંગલ લેયર DVD ની કેપેસિટી 4.7 GB હોય છે, જ્યારે ડ્યુઅલ લેયર DVD 8.5 GB સુધી ડેટા સંગ્રહી શકે છે[span_10](start_span)[span_10](end_span).",
+    "correct": 1,
+    "explanation": "સિંગલ લેયર DVD ની કેપેસિટી 4.7 GB હોય છે, જ્યારે ડ્યુઅલ લેયર DVD 8.5 GB સુધી ડેટા સંગ્રહી શકે છે.",
     "img": null
   },
   {
     "q": "બ્લુ-વાયોલેટ લેઝર કિરણો વાપરતી હાઇ-ડેફિનેશન 'બ્લુ-રે ડિસ્ક' (Blu-ray Disk) ની સિંગલ લેયર સંગ્રહ ક્ષમતા કેટલી હોય છે?",
     "options": [
-      "25 GB (ડ્યુઅલ લેયરમાં 50 GB થી 128 GB)",
-      "4.7 GB",
-      "700 MB",
-      "10 GB"
+      "૪.૭ GB સ્ટાન્ડર્ડ સ્ટોરેજ ક્ષમતા",
+      "૭૦૦ MB બેઝિક ઓપ્ટિકલ ક્ષમતા",
+      "૨૫ GB સિંગલ લેયર સ્ટોરેજ ક્ષમતા",
+      "૧૦ GB એવરેજ ઓપ્ટિકલ ક્ષમતા"
     ],
-    "correct": 0,
-    "explanation": "Blu-ray Disk ની સિંગલ લેયર ક્ષમતા 25 GB અને મલ્ટી-લેયરમાં તે 128 GB સુધી સ્ટોરેજ આપે છે[span_11](start_span)[span_11](end_span).",
+    "correct": 2,
+    "explanation": "Blu-ray Disk ની સિંગલ લેયર ક્ષમતા 25 GB અને મલ્ટી-લેયરમાં તે 128 GB સુધી સ્ટોરેજ આપે છે.",
     "img": null
   },
   {
     "q": "CD-ROM, CD-R અને CD-RW માં 'CD-RW' નો સાચો અર્થ શું થાય છે?",
     "options": [
-      "Compact Disk - ReWritable (ડેટા વારંવાર ભૂંસીને ફરી લખી શકાય તેવી ડિસ્ક)",
-      "Compact Disk - Read Word",
-      "Compact Disk - Real World",
-      "Compact Disk - Run Write"
+      "Compact Disk - Read Word Mode File",
+      "Compact Disk - Real World Standard",
+      "Compact Disk - Run Write Processing",
+      "Compact Disk - ReWritable (પુનઃલેખન)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "CD-RW (ReWritable) ડિસ્કમાં રહેલા ડેટાને ઇરેઝ કરીને નવો ડેટા ઘણી વખત ફરીથી રાઇટ કરી શકાય છે.",
     "img": null
   },
@@ -171,57 +171,57 @@
     "q": "પેન ડ્રાઇવ (Flash Drive) ને કમ્પ્યુટર સાથે જોડવા માટે કયા સ્ટાન્ડર્ડ પોર્ટનો ઉપયોગ થાય છે?",
     "options": [
       "USB (Universal Serial Bus)",
-      "VGA પોર્ટ",
-      "PS/2 પોર્ટ",
-      "HDMI પોર્ટ"
+      "VGA પોર્ટ (Video Adapter)",
+      "PS/2 પોર્ટ (Legacy Device)",
+      "HDMI પોર્ટ (High Definition)"
     ],
     "correct": 0,
-    "explanation": "પેન ડ્રાઇવ USB (Universal Serial Bus) ઇન્ટરફેસ દ્વારા કમ્પ્યુટર સાથે જોડાય છે[span_12](start_span)[span_12](end_span).",
+    "explanation": "પેન ડ્રાઇવ USB (Universal Serial Bus) ઇન્ટરફેસ દ્વારા કમ્પ્યુટર સાથે જોડાય છે.",
     "img": null
   },
   {
     "q": "મોબાઇલ ફોનના ચાર્જિંગ પોઇન્ટ (Type-C / Micro USB) સાથે સીધી કનેક્ટ થઈ શકે તેવી પેન ડ્રાઇવને શું કહે છે?",
     "options": [
+      "SATA પોર્ટેબલ હાઇ-સ્પીડ ડ્રાઇવ",
       "OTG પેન ડ્રાઇવ (On-The-Go)",
-      "SATA ડ્રાઇવ",
-      "SSD ડ્રાઇવ",
-      "LAN પેન ડ્રાઇવ"
+      "SSD પોર્ટેબલ ફ્લેશ ડ્રાઇવ",
+      "LAN કેબલ નેટવર્કિંગ ડ્રાઇવ"
     ],
-    "correct": 0,
-    "explanation": "OTG એટલે On-The-Go, જે સ્માર્ટફોન અને કમ્પ્યુટર બંનેમાં સીધી પ્લગ થઈ શકે છે[span_13](start_span)[span_13](end_span).",
+    "correct": 1,
+    "explanation": "OTG એટલે On-The-Go, જે સ્માર્ટફોન અને કમ્પ્યુટર બંનેમાં સીધી પ્લગ થઈ શકે છે.",
     "img": null
   },
   {
     "q": "ડિજિટલ કેમેરા અને સ્માર્ટફોનમાં વપરાતા નાના મેમરી કાર્ડ (SD Card) માં 'SD' નું પૂરું નામ શું છે?",
     "options": [
-      "Secure Digital",
-      "System Disk",
-      "Solid Device",
-      "Serial Data"
+      "System Disk (સિસ્ટમ ડિસ્ક કાર્ડ)",
+      "Solid Device (સોલિડ ડિવાઇસ કાર્ડ)",
+      "Secure Digital (સિક્યોર ડિજિટલ)",
+      "Serial Data (સીરીયલ ડેટા કાર્ડ)"
     ],
-    "correct": 0,
-    "explanation": "SD Card એટલે Secure Digital Card, જેની શોધ 1987માં તોશિબા દ્વારા ફ્લેશ મેમરી રૂપે થઈ હતી[span_14](start_span)[span_14](end_span).",
+    "correct": 2,
+    "explanation": "SD Card એટલે Secure Digital Card, જેની શોધ 1987માં તોશિબા દ્વારા ફ્લેશ મેમરી રૂપે થઈ હતી.",
     "img": null
   },
   {
     "q": "કોઈપણ સ્ટોરેજ ડિવાઇસ (પેન ડ્રાઇવ કે હાર્ડ ડિસ્ક) માંથી તમામ ડેટા એકસાથે ભૂંસીને તેને નવી ફાઇલ સિસ્ટમ મુજબ તૈયાર કરવાની પ્રક્રિયાને શું કહે છે?",
     "options": [
-      "ફોર્મેટ (Format / Formatting)",
-      "ડિફ્રેગમેન્ટેશન",
-      "બેકઅપ",
-      "આર્કાઇવ"
+      "ડિસ્ક ડિફ્રેગમેન્ટેશન ટૂલ પ્રોસેસ",
+      "ડેટા બેકઅપ આર્કાઇવિંગ પ્રોસેસ",
+      "સિસ્ટમ કેશ ક્લીયરિંગ પ્રોસેસ",
+      "ફોર્મેટિંગ (Format / Formatting)"
     ],
-    "correct": 0,
-    "explanation": "Format કરવાથી સ્ટોરેજ ડિવાઇસના તમામ સેક્ટર્સ સાફ થઈ જાય છે અને નવી ફાઇલ એલોકેશન સિસ્ટમ રચાય છે[span_15](start_span)[span_15](end_span).",
+    "correct": 3,
+    "explanation": "Format કરવાથી સ્ટોરેજ ડિવાઇસના તમામ સેક્ટર્સ સાફ થઈ જાય છે અને નવી ફાઇલ એલોકેશન સિસ્ટમ રચાય છે.",
     "img": null
   },
   {
     "q": "વિન્ડોઝ ઓપરેટિંગ સિસ્ટમમાં મોટી હાર્ડ ડિસ્ક ડ્રાઇવ્સ અને સુરક્ષા પરમિશન્સ માટે કઈ ફાઇલ સિસ્ટમ વપરાય છે?",
     "options": [
       "NTFS (New Technology File System)",
-      "FAT16",
-      "EXT4",
-      "HFS"
+      "FAT16 ફાઇલ એલોકેશન ટેબલ સિસ્ટમ",
+      "EXT4 લિનક્સ જર્નલિંગ ફાઇલ સિસ્ટમ",
+      "HFS પ્લસ એપલ મેકિનટોશ ફાઇલ સિસ્ટમ"
     ],
     "correct": 0,
     "explanation": "NTFS (New Technology File System) ફાઇલ એન્ક્રિપ્શન, લાર્જ ફાઇલ સપોર્ટ અને સુરક્ષા પરમિશન્સ આપે છે.",
@@ -230,46 +230,46 @@
   {
     "q": "જૂની પેન ડ્રાઇવ અને મેમરી કાર્ડમાં વપરાતી પ્રમાણભૂત ફાઇલ સિસ્ટમ 'FAT32' નું પૂર્ણ સ્વરૂપ શું છે?",
     "options": [
-      "File Allocation Table (32-bit)",
-      "Fast Access Technology",
-      "File Arrangement Tool",
-      "Format Allocation Task"
+      "Fast Access Technology System 32",
+      "File Allocation Table 32-bit (FAT32)",
+      "File Arrangement Tool System 32",
+      "Format Allocation Task Module 32"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "FAT એટલે File Allocation Table; FAT32 માં એક સિંગલ ફાઇલ સાઇઝ વધુમાં વધુ 4 GB સુધીની જ હોઈ શકે છે.",
     "img": null
   },
   {
     "q": "વિન્ડોઝ અને મેક (Mac) બંને ઓપરેટિંગ સિસ્ટમમાં 4 GB થી મોટી ફાઇલો સરળતાથી સપોર્ટ કરતી આધુનિક પેન ડ્રાઇવ ફાઇલ સિસ્ટમ કઈ છે?",
     "options": [
-      "exFAT (Extended File Allocation Table)",
-      "FAT12",
-      "DOS FAT",
-      "NTFS v1"
+      "FAT12 ફાઇલ સિસ્ટમ મોડેલ",
+      "DOS FAT લીગસી ફાઇલ મોડેલ",
+      "exFAT (Extended File Table)",
+      "NTFS v1 પ્રારંભિક ફાઇલ મોડેલ"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "exFAT એ ફ્લેશ ડ્રાઇવ્સ માટે ખાસ બનાવેલી ફાઇલ સિસ્ટમ છે જે ક્રોસ-પ્લેટફોર્મ સુસંગતતા અને મોટી ફાઇલોને સપોર્ટ કરે છે.",
     "img": null
   },
   {
     "q": "હાર્ડ ડિસ્કમાં છૂટાછવાયા વિખરાયેલા ડેટા બ્લોક્સને ફરીથી એકસાથે ક્રમબદ્ધ ગોઠવીને ડિસ્કની સ્પીડ વધારતા વિન્ડોઝ ટૂલને શું કહે છે?",
     "options": [
-      "ડિસ્ક ડિફ્રેગમેન્ટેશન (Disk Defragmenter)",
-      "ડિસ્ક ક્લીનઅપ",
-      "ચેક ડિસ્ક (CHKDSK)",
-      "ડિસ્ક ફોર્મેટર"
+      "ડિસ્ક ક્લીનઅપ ટૂલ (Cleanmgr)",
+      "ચેક ડિસ્ક યુટિલિટી (CHKDSK)",
+      "ડિસ્ક ફોર્મેટર યુટિલિટી ટૂલ",
+      "ડિસ્ક ડિફ્રેગમેન્ટેશન (Defragmenter)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Disk Defragmentation વિખરાયેલી (Fragmented) ફાઇલોને સળંગ સેક્ટર્સમાં ગોઠવીને રીડ-રાઇટ સ્પીડ વધારે છે.",
     "img": null
   },
   {
     "q": "હાર્ડ ડિસ્કના રીડ/રાઇટ હેડને નિર્ધારિત ટ્રેક (Track) સુધી પહોંચવામાં લાગતા સમયને શું કહે છે?",
     "options": [
-      "સીક ટાઇમ (Seek Time)",
-      "લેટન્સી ટાઇમ",
-      "એક્સેસ ટાઇમ",
-      "ટ્રાન્સફર રેટ"
+      "સીક ટાઇમ (Seek Time Delay)",
+      "લેટન્સી ટાઇમ (Latency Delay)",
+      "એક્સેસ ટાઇમ (Total Access)",
+      "ટ્રાન્સફર રેટ (Transfer Rate)"
     ],
     "correct": 0,
     "explanation": "Seek Time એટલે ડિસ્ક આર્મને સાચા સિલિન્ડર કે ટ્રેક પર પોઝિશન થવા માટે લાગતો સમય.",
@@ -278,26 +278,25 @@
   {
     "q": "હાર્ડ ડિસ્કમાં નિર્ધારિત સેક્ટર ફરતું-ફરતું રીડ/રાઇટ હેડની બરાબર નીચે આવે ત્યાં સુધી લાગતા રોટેશનલ વિલંબને શું કહે છે?",
     "options": [
-      "લેટન્સી ટાઇમ / રોટેશનલ ડીલે (Latency Time)",
-      "સીક ટાઇમ",
-      "બૂટ ટાઇમ",
-      "ક્લોક સાઇકલ"
+      "સીક ટાઇમ વિલંબ (Seek Time)",
+      "લેટન્સી ટાઇમ (Rotational Latency)",
+      "બૂટ ટાઇમ વિલંબ (Boot Time)",
+      "ક્લોક સાઇકલ સ્પીડ (Clock Time)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Rotational Latency એ ચોક્કસ સેક્ટર હેડની નીચે આવવા માટે પ્લેટરના પરિભ્રમણમાં લાગતો સમય છે.",
     "img": null
   },
   {
     "q": "હાર્ડ ડિસ્કનો જે ભૌતિક ભાગ ખરાબ થઈ ગયો હોય અને જેના પર ડેટા રાઇટ કે રીડ ન થઈ શકે તેને શું કહેવાય છે?",
     "options": [
-      "બેડ સેક્ટર (Bad Sector)",
-      "બ્લેન્ક ટ્રેક",
-      "કરપ્ટ બૂટ",
-      "લોસ્ટ બાઈટ"
+      "બ્લેન્ક ટ્રેક એરિયા (Blank Track)",
+      "કરપ્ટ બૂટ સેક્ટર (Corrupt Boot)",
+      "બેડ સેક્ટર (Bad Sector Area)",
+      "લોસ્ટ બાઈટ ક્લસ્ટર (Lost Byte)"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Bad Sector એ ડિસ્કનો ક્ષતિગ્રસ્ત ભાગ છે જેને ઓપરેટિંગ સિસ્ટમ ડેટા સંગ્રહ માટે અમાન્ય ગણીને અવગણે છે.",
     "img": null
   }
-    ]
-
+]
